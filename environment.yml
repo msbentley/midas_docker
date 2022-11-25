@@ -1,0 +1,13 @@
+name: midas
+channels:
+  - defaults
+dependencies:
+  - python=2.7
+  - astropy
+  - numpy
+  - pandas
+  - scikit-image
+  - ipykernel
+  - conda-forge::pvl=0.3.0
+  - andrewannex::spiceypy
+  - auto::bitstring

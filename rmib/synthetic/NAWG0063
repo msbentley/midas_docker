@@ -1,0 +1,70 @@
+#######################################################
+#
+#
+# NAWG0063 STR B-STL delta angle
+#
+#    This parameter returns the angle, in degrees, 
+#    between the STR B and the STL EST quaternions
+#
+# Created: 15 Sept 2005
+# Author: I. Tanco
+# 
+# Description of variables: 
+#     
+# Change History: 
+# 15 Sept 05 IT  Adapted from Venus Express
+# 30 Nov  05 IT  Corrected appalling mistake in computation of delta-angle.
+#                How could it have gone for so long without nobody noticing?
+#                I bet nobody is looking at these things.
+# 02 Mar  07 IT	 Parameter corrected to bring in-line with VEX
+# 23 Aug  07 FL  ESC-DCR-432 - Update STRB Alignment
+#
+######################################################33
+
+# Definition of the STR B - to SC RF quaternion
+
+VAR_strsc_q0 :=  0.5099633;
+VAR_strsc_q1 := -0.6094250;
+VAR_strsc_q2 :=  0.4660673;
+VAR_strsc_q3 :=  0.3889986;
+
+# Declare var STR B quaternion
+
+VAR_str_q0 := NACW1K2S.eng;
+VAR_str_q1 := NACW1K2P.eng;
+VAR_str_q2 := NACW1K2Q.eng;
+VAR_str_q3 := NACW1K2R.eng;
+
+# Declare the conjugate of the STL EST quaternion
+
+VAR_stlc_q0 := NACW0X00.eng;
+VAR_stlc_q1 := -NACW0X01.eng;
+VAR_stlc_q2 := -NACW0X02.eng;
+VAR_stlc_q3 := -NACW0X03.eng;
+
+# Rotate the STR quaternion to SC RF. [qsc = qstr*qstrsc]
+
+VAR_sc_q0 := VAR_str_q0*VAR_strsc_q0 - VAR_str_q1*VAR_strsc_q1 - VAR_str_q2*VAR_strsc_q2 - VAR_str_q3*VAR_strsc_q3;
+VAR_sc_q1 := VAR_str_q0*VAR_strsc_q1 + VAR_str_q1*VAR_strsc_q0 + VAR_str_q2*VAR_strsc_q3 - VAR_str_q3*VAR_strsc_q2;
+VAR_sc_q2 := VAR_str_q0*VAR_strsc_q2 - VAR_str_q1*VAR_strsc_q3 + VAR_str_q2*VAR_strsc_q0 + VAR_str_q3*VAR_strsc_q1;
+VAR_sc_q3 := VAR_str_q0*VAR_strsc_q3 + VAR_str_q1*VAR_strsc_q2 - VAR_str_q2*VAR_strsc_q1 + VAR_str_q3*VAR_strsc_q0;
+
+# Find the delta-quaternion between the STR and STL quaternions 
+# Use the conjugate of the STL quat. [qdelta = qsc*conj(qstl)]
+
+VAR_dl_q0 := VAR_sc_q0*VAR_stlc_q0 - VAR_sc_q1*VAR_stlc_q1 - VAR_sc_q2*VAR_stlc_q2 - VAR_sc_q3*VAR_stlc_q3;
+VAR_dl_q1 := VAR_sc_q0*VAR_stlc_q1 + VAR_sc_q1*VAR_stlc_q0 + VAR_sc_q2*VAR_stlc_q3 - VAR_sc_q3*VAR_stlc_q2;
+VAR_dl_q2 := VAR_sc_q0*VAR_stlc_q2 - VAR_sc_q1*VAR_stlc_q3 + VAR_sc_q2*VAR_stlc_q0 + VAR_sc_q3*VAR_stlc_q1;
+VAR_dl_q3 := VAR_sc_q0*VAR_stlc_q3 + VAR_sc_q1*VAR_stlc_q2 - VAR_sc_q2*VAR_stlc_q1 + VAR_sc_q3*VAR_stlc_q0;
+
+# Determine the phi-angle from the three vectorial components of the delta quaternion.
+# Sum(qi^2) = sin^2(phi/2)
+
+VAR_sinarg := (VAR_dl_q1**2 + VAR_dl_q2**2 + VAR_dl_q3**2)**0.5;
+
+VAR_ang := 2*arcsin(VAR_sinarg);
+
+
+VAR_result := VAR_ang * (180 / arccos(-1));
+
+return( VAR_result );

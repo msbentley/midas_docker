@@ -1,0 +1,431 @@
+1661	Calib for Enabled(1)/dis	U	
+1662	Calib for Integration ti	U	
+1663	Calib for Analog Chain G	U	
+1664	Calib for Measure type	U	
+1665	Calib for type of Temp m	U	
+1666	Calib for Thrust type	U	
+1667	Calib for Velocity Measu	U	
+1668	Calib for zero crossing 	U	
+1669	Calib for Configuration	U	
+1670	Calib for SAS Identifier	U	
+1671	Calib for Command type	U	
+1672	Calib for Operation Code	U	
+1673	Calib for SGM Group ID	U	
+2256	Calib for Enable(1)/disa	U	
+2372	Period Ratio, AOCMS	U	
+2373	Phasing Flag, AOCMS	U	
+1674	RW Torque Demand Sign	U	
+1675	RW Heater On/Off switch	U	
+3197	Calibration RAM master c	U	
+3198	Calibration RAM master c	U	
+3199	Calibration RAM master c	U	
+3200	Calibration RAM master c	U	
+3201	Calibration RAM master c	U	
+3202	Calibration RAM master c	U	
+1676	Calib for AOCMS selected	U	
+1677	Calib for lcv number	U	
+1678	Calib for IMP selected c	U	
+1679	Calib for XYZ IMP select	U	
+1680	Calib for IMP App_Flag	U	
+1681	Calib for RW isolated wh	U	
+2258	Calib for SADE Max Speed	U	
+1682	Calib for lcv number	U	
+3229	Thr_ctrl_axis	U	
+1683	calib for STR SW	U	
+979	calib for STR SW	U	
+980	calib for STR SW	U	
+1684	calib for STR SW	U	
+981	calib for STR SW	U	
+1685	calib for STR SW	U	
+1686	calib for STR SW	U	
+982	calib for STR SW	U	
+983	calib for STR SW	U	
+2546	calib for STR SW	U	
+1687	calib for CAM SW	U	
+1002	calib for CAM SW	U	
+1003	calib for CAM SW	U	
+1004	calib for CAM SW	U	
+1005	calib for CAM SW	U	
+1688	calib for CAM SW	U	
+1689	calib for CAM SW	U	
+1006	calib for CAM SW	U	
+1007	calib for CAM SW	U	
+1022	calib for CAM SW	U	
+1690	calib for CAM SW	U	
+1023	calib for CAM SW	U	
+1024	calib for CAM SW	U	
+1025	calib for CAM SW	U	
+2259	Generic Calib for 0=Fals	U	
+2260	PID	U	
+2880	Deep space flag	U	
+2994	SM Code Calibration	U	
+2995	FM Code Calibration	U	
+3055	Power supply	U	
+2942	Solar array Status	U	
+3219	HGA Current Set Flag	U	
+3220	HGA Deployment Flag	U	
+1059	Value to Text for HK SID	U	
+1060	Value to Text for memory	U	
+1692	Value to Text for door c	U	
+1693	Value to Text for memory	U	
+1061	Value to Text for OffOn	U	
+1694	Value to Text for safety	U	
+1062	Value to Text for safety	U	
+1063	Value to Text for safety	U	
+1695	Value to Text for heater	U	
+2902	Value to Text for TestPa	U	
+1696	Value to Text for MemCon	U	
+1697	Value to Text for acquis	U	
+1075	Deployed/Stowed	U	
+1076	Deployed/Stowed	U	
+1078	Text Calib for Self Test	U	
+1080	Text calib for DMS SW	U	
+1090	Text calib for DMS SW	U	
+1091	Text calib for DMS SW	U	
+1092	Text calib for DMS SW	U	
+1093	Text calib for DMS SW	U	
+1095	Text calib for DMS SW	U	
+1096	Text calib for DMS SW	U	
+1124	Text calib for DMS SW	U	
+1125	Text calib for DMS SW	U	
+1126	Text calib for DMS SW	U	
+1127	Text calib for DMS SW	U	
+1128	Text calib for DMS SW	U	
+1129	Text calib for DMS SW	U	
+1130	Text calib for DMS SW	U	
+1131	Text calib for DMS SW	U	
+1132	Text calib for DMS SW	U	
+1134	Text calib for DMS SW	U	
+1135	Text calib for DMS SW	U	
+1136	Text calib for DMS SW	U	
+1137	Text calib for DMS SW	U	
+1138	Text calib for DMS SW	U	
+1139	Text calib for DMS SW	U	
+1140	Text calib for DMS SW	U	
+1141	Text calib for DMS SW	U	
+1142	Text calib for DMS SW	U	
+1143	Text calib for DMS SW	U	
+1144	Text calib for DMS SW	U	
+1698	Text calib for DMS SW	U	
+1699	Text calib for DMS SW	U	
+1700	Text calib for DMS SW	U	
+1701	Text calib for DMS SW	U	
+1702	Text calib for DMS SW	U	
+1703	Text calib for DMS SW	U	
+1704	Text calib for DMS SW	U	
+1705	Text calib for DMS SW	U	
+1706	Text calib for DMS SW	U	
+1707	Text calib for DMS SW	U	
+1708	Text calib for DMS SW	U	
+1709	Text calib for DMS SW	U	
+1710	Text calib for DMS SW	U	
+1711	Text calib for DMS SW	U	
+1712	Text calib for DMS SW	U	
+1713	SW_CMD Address	U	
+1714	Text calib for DMS SW	U	
+1715	Text calib for DMS SW	U	
+1716	Text calib for DMS SW	U	
+1717	Single serial access con	U	
+1718	Interrupt controlled ser	U	
+1719	DMA Transfer memory	U	
+1720	Little/Big endian	U	
+1721	Port width	U	
+1722	Status channel 3	U	
+1723	Status channel 2	U	
+1724	Status channel 1	U	
+1725	Arbitration Clock Cycles	U	
+1726	Test Mode (access/no acc	U	
+1727	Power Safe Mode	U	
+1728	Base Frequency Selection	U	
+1729	Checksum unable	U	
+1730	Data transfer mode	U	
+1731	Set data bits 31-8 or 31	U	
+1732	Stop reception	U	
+1733	EOP2 token (send at end 	U	
+1734	TM Datation (loaded/not 	U	
+2374	Period Ratio, DMS	U	
+2375	Phasing Flag, AOCMS	U	
+1735	Text calib for FDIR Test	U	
+1158	Text calib for Enab/Disa	U	
+1736	Text calib for Configura	U	
+1737	Text calib for Device nu	U	
+1738	Text calib for Device nu	U	
+1739	Text calib for Configura	U	
+1740	Text calib for Device Nu	U	
+1741	Text calib Configuration	U	
+1742	Text calib for Safe Mode	U	
+1743	Text calib for Completio	U	
+1744	Text calib for Enab/Disa	U	
+1745	Text calib for Selected 	U	
+1746	Text calib for Earth Poi	U	
+1747	Text calib for PDU Side	U	
+1748	Text calib for Disab/Ena	U	
+1749	Text calib for Time Repo	U	
+1750	Text calib for Time Rang	U	
+1751	Text calib for Type	U	
+1752	Text calib for Frequency	U	
+2860	Text calib for OEIR sour	U	
+1753	Link	U	
+1754	Text calib for DMS SW	U	
+1168	Memory Module Number	U	
+1755	Memory Bank Number	U	
+1756	Word Group Number	U	
+1169	Source User	U	
+1170	File Type	U	
+1171	Protection type	U	
+1757	Disable/Enable	U	
+1758	Text calib for DMS SW	U	
+1759	Text calib for DMS SW	U	
+1760	PM	U	
+1761	SSMM Status	U	
+1762	RTU Core	U	
+1763	MTL mode	U	
+1764	Payload instrument	U	
+1765	Nom/Red branch	U	
+1766	TM polling	U	
+1767	TC sending	U	
+1768	Platform Unit	U	
+1771	PID	U	
+2376	Application Program Name	U	
+2766	Generic Stopped-Started 	U	
+2767	Generic Stopped-Started 	U	
+2768	Generic Stopped-Started 	U	
+2769	Generic Stopped-Started 	U	
+2970	SGM Selected	U	
+2618	Type	U	
+3221	SSMM Science File Identi	U	
+2903	SS-PDU LCL Continuous Cu	U	
+2904	PL-PDU LCL Continuous Cu	U	
+2611	Text calib for FDIR Test	U	
+2377	Device number (138,10)	U	
+2378	Device number (FDMX3070)	U	
+2411	Device number (FDMX3071)	U	
+2379	Configuration FACX3074	U	
+2380	Configuration FACX3075	U	
+2381	Configuration FACX3076	U	
+2382	Configuration FACX3077	U	
+2383	CDMU rec CMD (FDMXC502)	U	
+2384	CDMU rec CMD (FDMXC503)	U	
+2385	CDMU rec CMD (FDMXC504)	U	
+2386	CDMU rec CMD (FDMXC505)	U	
+2387	CDMU rec CMD (FDMXC506)	U	
+2388	CDMU rec CMD (FDMXC507)	U	
+2389	CDMU rec CMD (FDMXC508)	U	
+2390	CDMU rec CMD (FDMXC509)	U	
+2391	CDMU rec CMD (FDMXC510)	U	
+2392	CDMU rec CMD (FDMXC511)	U	
+2393	CDMU rec CMD (FDMXC512)	U	
+2394	CDMU rec CMD (FDMXC513)	U	
+2414	CDMU rec CMD (FDMXC534)	U	
+1196	TM Bit Rate	U	
+1233	Enabled/Disabled	U	
+1237	Laser Power	U	
+1238	Laser Ops Mode	U	
+1239	Low/High	U	
+1773	On/Off on 16 bits	U	
+1240	Selected heaters	U	
+2699	X/Y/Z loop control	U	
+2542	status flags (inverted)	U	
+2543	status flags	U	
+2668	main scan direction	U	
+2547	power relay switching	U	
+2669	X/Y scan direction	U	
+1774	Value to Text for HK SID	U	
+1776	Value to Text for Smm Gu	U	
+1261	Value to Text for On/Off	U	
+1778	Value to Text for IFP Po	U	
+1779	Value to Text for Large 	U	
+1780	Value to Text for Small 	U	
+1262	Value to Text for Mirror	U	
+1263	Value to Text for MIRO P	U	
+1264	Value to Text for CTS In	U	
+1265	Value to Text for Contin	U	
+1266	Value to Text for CTS Sm	U	
+1781	Value to Text for CTS He	U	
+1782	Value to Text for CTS He	U	
+1783	Value to Text for CTS Da	U	
+1784	Value to Text for LO Fre	U	
+1785	Value to Text for Mirror	U	
+1786	Value to Text:SMM GunnVo	U	
+1291	PDU-PL On/Off ST	U	
+2395	Volt. ref of TC ZRNC1201	U	
+2861	LU Table No	U	
+2867	Calculation Function	U	
+2396	COPS ion range	U	
+2397	COPS immission range	U	
+2398	COPS select gauge	U	
+2399	Volt. ref of TC ZRND1201	U	
+2400	Volt. ref of TC ZRND1211	U	
+2862	DFMS LU Table No	U	
+2863	DFMS Calculation Functio	U	
+2277	ESA/VACC Scan	U	
+2278	LEDA/CEM Scan	U	
+2279	Scan resolution	U	
+2280	D-Filament Emission	U	
+2281	D-Filament 2 or 1	U	
+2282	D-Cover action	U	
+2283	D-Cover mode	U	
+2284	D-Cover direction	U	
+1790	Boolean Off On 1	U	
+1299	Boolean Off On 2	U	
+1301	Boolean Disable Enable	U	
+1304	Unit for TC/TM	U	
+1791	DPU Command Opcode	U	
+1792	DPU Command Unit	U	
+1793	DPU Science Opcode	U	
+1794	DPU Science Unit	U	
+2285	GCU Selection	U	
+2402	HK Table number	U	
+2403	SC HK Table number	U	
+2404	ROSINA Mode	U	
+2405	Mode change cover close	U	
+2406	Volt. ref of TC ZRNR1201	U	
+2407	Volt. ref of TC ZRNR1211	U	
+2864	RTOF LU Table No	U	
+2286	Pulser selection	U	
+2287	Pulser table	U	
+2288	ETS Unit Selection	U	
+2289	R-Filament OS/SS	U	
+2290	R-Filament 2 or 1	U	
+2291	RTOF HV Hard Mirror Puls	U	
+2292	RTOF HV Down All_Off	U	
+2293	RTOF Motor velocity	U	
+2294	On/Off	U	
+2295	RTOF cover mode	U	
+2296	RTOF cover command	U	
+1319	1 Bit Enable / Disable	U	
+1795	CP Mon Act/Disact	U	
+1796	MIP Dog Aslp/Actv	U	
+1797	CommRate	U	
+1798	SetType 1	U	
+1799	Set Type 2	U	
+1800	SetType 3	U	
+1801	SetType 4	U	
+1802	Subsystem	U	
+1803	DiagType	U	
+1804	IES Mode Cal	U	
+3073	Watch Dog State	U	
+3107	Select Memory Area	U	
+1503	Invocation Par / Events 	U	
+3142	Invocation Par CAM HRD O	U	
+2261	Invocation Par / Events 	U	
+2511	Invocation Par / Events 	U	
+2826	enabled / disabled	U	
+3143	Auto-WOL Status Cal	U	
+3013	Invocation Par / Events 	U	
+1504	TT&C OBCP Global Var- X-	U	
+1817	TT&C OBCP Global Var- In	U	
+1818	TT&C OBCP Global Var- US	U	
+2245	TT&C OBCP Global Var- 1 	U	
+2246	TT&C OBCP Global Var- Po	U	
+3014	PM to be tested	U	
+3051	PM Device selected	U	
+3052	CAM/STR selected	U	
+3108	Memory Area	U	
+2408	PIU configuration	U	
+2629	RPC unit modes	U	
+2630	Action	U	
+2409	PAYLD	U	
+2410	SSP commands to be sent	U	
+2631	EID (for HRD Link Failur	U	
+2865	OBCP 6591 Global Paramet	U	
+2866	OBCP 6591 Global Par DP 	U	
+2792	Cover Status (PRNGP402)	U	
+3190	Transponder selected	U	
+2724	DMS TM Mode	U	
+2725	AOCMS TM Mode	U	
+2726	PID Routing	U	
+3053	CAM/STR Mode selected	U	
+3109	Select Instrument	U	
+3110	STATUS	U	
+3123	Transition Failed	U	
+3127	OBCP 6870 Requested Tran	U	
+3137	Memory Device	U	
+3132	Memory Device	U	
+1538	DPU Test Mode Link A	U	
+1539	DPU Test Mode Link B	U	
+1819	DPU Movie Mode	U	
+1820	DPU Binning Mode	U	
+1821	DPU Shutter Charge Mode	U	
+1822	DPU Image Compression	U	
+1823	Boolean Off On	U	
+1542	Boolean Disable Enable	U	
+1824	Boolean Enable Disable	U	
+1543	Boolean Main Red.	U	
+1825	Boolean High Low	U	
+1546	Memory ID	U	
+1826	Tristate Main Off Redund	U	
+2512	UDP Command ID	U	
+2584	Boolean false true	U	
+2585	binningMode	U	
+2586	amplifierMode	U	
+2587	adcMode	U	
+2588	gainMode	U	
+2589	subframeMode	U	
+2590	acquireMode	U	
+2591	lampMode	U	
+2592	chargeMode	U	
+2700	Interface	U	
+2593	resourceID	U	
+2594	demonID	U	
+2595	cameraID	U	
+2596	verbosity	U	
+2598	compression mode	U	
+2599	thumbnail type	U	
+2600	encoders	U	
+2612	routing flags	U	
+2601	NAC FWM1 filters	U	
+2602	NAC FWM2 filters	U	
+2603	WAC FWM1 filters	U	
+2604	WAC FWM2 filters	U	
+2944	queue_command	U	
+2945	nvram_bank	U	
+2946	Category	U	
+2947	RequestID	U	
+2948	logical_mechanism	U	
+2949	FDM switch	U	
+2950	Table sections	U	
+2979	HK Packet SID	U	
+2980	MCB Controler	U	
+3129	Spectral Type	U	
+3130	SHM Cal Mode	U	
+3131	logical_mechanism2	U	
+3147	Post Acquire Mode	U	
+3192	SHM HK Mode	U	
+3193	SHM Error Action	U	
+3194	Safemode ID	U	
+3195	Safemode Action	U	
+2415	PDU ID	U	
+2416	Heater Branch Status	U	
+2417	TCT_Selection Strategy	U	
+2418	Slope of Temperature	U	
+2419	TMT Selection Strategy	U	
+2420	LineN48 UpdateTCTGenTabl	U	
+2421	LineN22 UpdatePLTMTGenTa	U	
+2422	LineN150 UpdatePLTMTGenT	U	
+3160	SGM TCT Lx Start Address	U	
+3161	SGM TCT LowThres Start A	U	
+3162	SGM TCT HighThres Start 	U	
+3163	SGM TCT cooling filter S	U	
+3164	SGM TCT heating filter S	U	
+3165	SGM TMT PL Lx Start Addr	U	
+3166	SGM TMT PL LowThres Star	U	
+3167	SGM TMT PL HighThres Sta	U	
+3168	SGM TMT PL cooling filte	U	
+3169	SGM TMT PL heating filte	U	
+3170	SGM TMT PF Lx Start Addr	U	
+3171	SGM TMT PF LowThres Star	U	
+3172	SGM TMT PF HighThres Sta	U	
+3173	SGM TMT PF cooling filte	U	
+3174	SGM TMT PF heating filte	U	
+3175	TRSP S-Bd Modulation Ind	U	
+3176	TRSP X-Bd Modulation Ind	U	
+3177	TRSP S-Bd RNG Modulation	U	
+3178	TRSP X-Bd RNG Modulation	U	
+1556	TRSP TCXO USO	U	
+1564	TRSP Modulation Index, T	U	
+1565	TRSP RX Bit Rate	U	
+3139	X-BAND TM MOD INDEX	U	
+3140	X-BAND RANGING MOD INDEX	U	
+2309	OB to Ground ID XREF	U	
+2740	OB to Ground ID XREF	U	

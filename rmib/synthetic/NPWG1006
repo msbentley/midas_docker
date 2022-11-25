@@ -1,0 +1,20 @@
+#######################
+#
+# NPWG1006	APR B Average MB Current
+#
+#  This parameter averages the 3 APR Main Bus Currents on PCU side B.
+#
+# Created: 10 July 2002
+# Author: E. Montagnon
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	10/Jul/02: Script created
+#
+#######################
+
+   VAR_result := ((NPWD1564.eng + NPWD1614.eng + NPWD1664.eng) / 3);
+   return(VAR_result);
+

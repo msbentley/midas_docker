@@ -1,0 +1,18 @@
+DESS0001	ESS Comms Status	2	1
+DLTS0010	Lander Temperatures (Orbiter TM)	5	1
+DLTS0020	MSS Temperatures (Orbiter TM)	5	1
+DMDS0001	MIDAS events	3	1
+DPWS0300	Continuous Current Acquisition	5	1
+DRNS0001	DPU Counters	3	1
+DRNS0002	DFMS Counters	5	1
+DRNS0003	RTOF Counters	5	1
+DRNS0004	COPS Counters	4	1
+DSRS0001	SR shutter error counters	2	1
+DTTS0001	TRSP1 Rx Lock/SPE/WB AGC	5	1
+DTTS0002	TRSP2 Rx Lock/SPE/WB AGC	5	1
+DXX0004	File Transfer Status	5	1
+DXX0005	MTL Status Status	2	1
+DXX0006	MTL Detailed Schedule Report	2	1
+DXXS0001	Counters and Registers	4	1
+DXXS0002	SSMM Files List	3	1
+DXXS0003	Defined Packet Store	4	1

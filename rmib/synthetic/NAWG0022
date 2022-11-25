@@ -1,0 +1,17 @@
+#######################
+#
+# NAWG0022	RWA Angular Momentum H
+#
+#  This parameter returns the Modulus of the Angular Momentum of the Reaction Wheel Assembly alone (not including S/C body or mechanisms) in Nms.
+#
+# Created: 12 Sept 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+
+VAR_H := ((NACW0N06.raw)**2 + (NACW0N07.raw)**2 + (NACW0N08.raw)**2)**0.5 ;
+
+return(VAR_H);

@@ -1,0 +1,24 @@
+#NACG0075 - Ver IMP measurement X3
+#  
+#
+VAR_result := 0;
+#
+#Case 1:	If Verification IMP = A and STAT: IMP A SWR ON = True then IMP A Gyro Measurement X3
+#
+if ((NAWD0P0E.eng == "A") and (NAWD0A0B.eng == "True")) then
+   VAR_result := NACW0E02.eng;
+endif;
+#
+#Case 2:	If Verification IMP = B and STAT: IMP B SWR ON = True then IMP B Gyro Measurement X3
+#
+if ((NAWD0P0E.eng == "B") and (NAWD0A0F.eng == "True")) then
+   VAR_result := NACW0E0C.eng;
+endif;
+#
+#Case 3:	If Verification IMP = C and STAT: IMP C SWR ON = True then IMP C Gyro Measurement X3
+#
+if ((NAWD0P0E.eng == "C") and (NAWD0A0J.eng == "True")) then
+   VAR_result := NACW0E0M.eng;
+endif;
+#
+return(VAR_result);

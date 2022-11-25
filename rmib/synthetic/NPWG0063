@@ -1,0 +1,20 @@
+#######################
+#
+# NPWG0063	TTC PWR
+#
+#  This is a blank parameter only used by MUST
+#
+# Created: 30th Jun 2014
+# Author: Arampan Rijiranuwat
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	30 Jun 14: Script created
+#
+#######################
+
+VAR_result := 0 ;
+return(VAR_result);
+

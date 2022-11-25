@@ -1,0 +1,22 @@
+#######################
+# NACG0007 : IMP C Real Avg Laser Int X1
+# 	Unit: [uA]
+# 	Real average laser intensity of the gyro.
+# 	The value of the corresponding TM parameter is invalid when the unit is OFF. The returned value is the last valid value when the unit was ON. This is corrected in this derived parameter by multiplying the value by the unit state (1=ON, 0=OFF).
+# 
+# Created on: Mon Sep 28 16:39:44 CEST 2009
+# Author: R. Letor
+# 
+# Description of variables: 
+# 	VAR_result: End result.
+# 
+# Change History:
+# 	28-Sep-2009: Script created
+# 
+#######################
+if NAWD0A0J.raw==1 then
+	VAR_result:=NACA6600.eng;
+else
+	VAR_result:=0;
+endif;
+return(VAR_result);

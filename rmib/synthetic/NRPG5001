@@ -1,0 +1,16 @@
+#######################
+#
+# NRPG5001	
+#
+# Conatenate two parameters to one 20 bit parameter and calibrate it.
+#
+# Created: 10 Mar 2004
+# Author: N. Schmitt
+# Change History:
+#
+#
+#######################
+
+VAR_x := (2.5 / 2**15) * ((NRPD530C.raw * 65536) + NRPA5310.raw);
+
+return (VAR_x);

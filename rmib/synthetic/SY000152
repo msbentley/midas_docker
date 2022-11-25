@@ -1,0 +1,1 @@
+(NVRD0063.raw == 0 land NVRD0006.raw == 1) lor (NVRD0063.raw == 1 land NVRD0007.raw == 1);

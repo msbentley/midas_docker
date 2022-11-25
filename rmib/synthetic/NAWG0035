@@ -1,0 +1,42 @@
+#######################
+#
+# NAWG0035	Derived Earth Elevation
+#
+#  This parameter returns the elevation of the Earth vector in the S/C frame.
+
+#
+#	CAREFUL!
+#	Elevation is defined taking S/C +Y axis as North Axis!
+#
+# Created: 14 Aug 2002
+# Author: I. Tanco
+# Descripton of variables:
+#       VAR_xz: projection in the XZ-plane of the earth vector.
+#	VAR_el1: Earth Elevation angle
+#		
+#	VAR_result : End result.
+#
+# Change History:
+#
+#
+#######################
+
+# Determine The Azimuth angle from Earth vector components
+#  the angle is in radians
+
+if ((NAWG0031 **2) + (NAWG0033 **2) == 0) then
+   VAR_xz := 1;
+else
+   VAR_xz := ( (NAWG0031 **2) + (NAWG0033 **2) ) **0.5;
+endif;
+
+
+VAR_el1 := arctan( NAWG0032 / VAR_xz);
+
+
+# Convert the angle to degrees
+
+VAR_result := VAR_el1 * (180 / arccos(-1));
+
+return(VAR_result);
+ 

@@ -1,0 +1,57 @@
+#######################
+#
+# NTTGX500	Rx2 AGC
+#
+#  This parameter returns the Receiver 2 AGC level.
+#  It takes into account the Rx Frequency Band selection and the Transponder     
+#  status (wideband or narrowband)	
+#	
+#	
+#
+# Created: 11 November 2003
+# Author: P. Schmitz
+# Descripton of variables:
+#       
+#	VAR_result : End result.
+#
+# Change History:
+#
+#	
+# 	
+#
+#######################
+#
+# Determine the receiver AGC level
+#  the AGC level is measured in dBm
+#
+#
+#Case 1: S-Rx2 selected, Trsp2 in NarrowBand
+#
+if ((NTTD202A.raw == 0) land ((NTTD2024.raw == 2) lor (NTTD2024.raw == 3) lor (NTTD2024.raw == 4))) then
+   VAR_result := NTTX5001.eng;
+endif;
+#
+#
+#Case 2: S-Rx2 selected, Trsp2 in WideBand
+#
+if ((NTTD202A.raw == 0) land ((NTTD2024.raw == 5) lor (NTTD2024.raw == 6) lor (NTTD2024.raw == 7))) then
+   VAR_result := NTTX5002.eng;
+endif;
+#
+#
+#Case 3: X-Rx2 selected, Trsp2 in NarrowBand
+#
+if ((NTTD202A.raw == 1) land ((NTTD2024.raw == 2) lor (NTTD2024.raw == 3) lor (NTTD2024.raw == 4))) then
+   VAR_result := NTTX5003.eng;
+endif;
+#
+#
+#Case 4: X-Rx2 selected, Trsp2 in WideBand
+#
+if ((NTTD202A.raw == 1) land ((NTTD2024.raw == 5) lor (NTTD2024.raw == 6) lor (NTTD2024.raw == 7))) then
+   VAR_result := NTTX5004.eng;
+endif;
+
+
+return(VAR_result);
+ 

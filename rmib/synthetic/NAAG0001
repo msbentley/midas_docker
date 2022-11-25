@@ -1,0 +1,22 @@
+#######################
+# NAAG0001 : RW A signed Wheel speed
+#   Unit: [rpm]
+#   Signed wheel speed for RW A
+#   According to the value of NAAD6011, will show the value of NAAD6014 if equals to 1 or NAAD6014 * (-1) if not 1 (normally 0)
+# 
+# Created on: Tue Oct 06 16:39:44 CEST 2009
+# Author: A. Santiago Varela
+# 
+# Description of variables: 
+#    VAR_result: End result.
+# 
+# Change History:
+#    06-Oct-2009: Script created
+# 
+#######################
+if NAAD6011.raw == 1 then
+    VAR_result := NAAD6014.eng;
+else
+    VAR_result := NAAD6014.eng * (-1);
+endif;
+return(VAR_result);

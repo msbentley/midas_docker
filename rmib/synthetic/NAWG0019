@@ -1,0 +1,17 @@
+#######################
+#
+# NAWG0019	Spacecraft Angular Momentum Hy
+#
+#  This parameter returns Y-component of the Angular Momentum of the Spacecraft (not including the RWA or mechanism movements), in Nms. 
+#
+# Created: 12 Sept 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+
+VAR_HY := NACW0Z03.raw*NACW0P00.raw + NACW0Z04.raw*NACW0P01.raw + NACW0Z05.raw*NACW0P02.raw;
+
+return(VAR_HY);

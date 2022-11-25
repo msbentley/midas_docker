@@ -1,0 +1,17 @@
+7778	1	VerMib			N	N	MIBversion	1	LN0N
+7778	2	CountPkt	7	0	N	N	Pktcounter	1	LN0N
+7778	3	Type			N	N	packettype	1	LN0N
+7778	4	sType			N	N	packetsubtype	1	LN0N
+7778	5	APID			N	N	packetAPID	1	LN0N
+7778	6	val1			N	N	packetVal1	1	LN0N
+7778	7	val2			N	N	packetVal2	1	LN0N
+7778	8	unused1			N	N	validSPID	1	LN0N
+7778	9	unused2			N	N	invalidflag	1	LN0N
+7776	1	VerDb			N	N	MIBversion	1	LN0N
+7776	2	Countno	6	0	N	N	filterscounter	1	LN0N
+7776	3	TypeFilt			N	N	packettype	1	LN0N
+7776	4	GsFilt			N	N	GroundStation	1	LN0N
+7776	5	SlesFilt			N	N	SLEserviceID	1	LN0N
+7776	6	SpacFilt			N	N	SpacecraftID	1	LN0N
+7776	7	VcFilt			N	N	VirtualChannel	1	LN0N	
+7776	8	ApidFilt			N	N	ApplicationID	1	LN0N

@@ -1,0 +1,37 @@
+#######################
+#
+# NAWG0024	
+#
+#  This parameter returns a value between x and x depending on the state of the Estellar Estimator
+#
+# Created: 22 Sept 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+# Case EST OFF
+if NAWD0A4O.raw == 1 then
+   return(0);
+endif;
+
+# Case EST GYROSTELLAR ONLY ON
+if NAWD0A4Q.raw == 1 then
+   return(1);
+endif;
+
+# Case EST GYROLESS ONLY ON
+if NAWD0A4S.raw == 1 then
+   return(2);
+endif;
+
+# Case BOTH EST ON
+if NAWD0A4R.raw == 1 then
+   if NAWD0A4T.raw == 1 then
+      return(3);
+   endif;
+   if NAWD0A4U.raw == 1 then
+      return(4);
+   endif;
+endif;

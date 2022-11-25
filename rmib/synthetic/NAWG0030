@@ -1,0 +1,41 @@
+#######################
+#
+# NAWG0030	
+#
+#  This parameter returns the Sun - Earth - SC Angle, in degrees.
+#
+#
+# Created: 16 June 2003
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+# USe EPH-provided Earth-to-SC vector
+VAR_SCx := NACW0S02.eng;
+VAR_SCy := NACW0S03.eng;
+VAR_SCz := NACW0S04.eng;
+
+# Obtain the Earth-to-Sun vector
+VAR_Sx := VAR_SCx - NACW0S05.eng;
+VAR_Sy := VAR_SCy - NACW0S06.eng;
+VAR_Sz := VAR_SCz - NACW0S07.eng;
+
+VAR_Snorm := (VAR_Sx**2 + VAR_Sy**2 +VAR_Sz**2)**0.5;
+
+# Normalize Earth-to-Sun vector
+VAR_nSx := VAR_Sx / VAR_Snorm;
+VAR_nSy := VAR_Sy / VAR_Snorm;
+VAR_nSz := VAR_Sz / VAR_Snorm;
+
+# Calculate the E*S dot product
+VAR_dotp := (VAR_SCx * VAR_nSx) + (VAR_SCy * VAR_nSy) + (VAR_SCz * VAR_nSz);
+
+# Now obtain the angle between the vectors (in radians)
+VAR_angrad := arccos(VAR_dotp);
+
+# Convert to degrees
+VAR_result := VAR_angrad * (180 / arccos(-1));
+
+return (VAR_result);

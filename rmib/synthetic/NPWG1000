@@ -1,0 +1,93 @@
+#######################
+#
+# NPWG1000	PCU Mode
+#
+#  This parameter returns the current operative mode of the PCU:
+#	- APR: power flow managed by regulation of the two APR sections
+#	- BCR: power flow managed by regulation of the power drawn from 
+#		main bus for battery charging
+#	- BDR: power flow managed by regulation of the three BDRs
+#
+# Created: 22 Aug 2002
+# Author: E. Montagnon
+# Descripton of variables:
+#	VAR_result : End result.
+#
+# Change History:
+#	190902	Typos in code corrected
+#	270902	MEA Voltage Ranges for each PCU Mode update
+#		based on Astrium inputs
+#
+#######################
+
+
+if NDWD0A20.raw == 0 then
+# PCU Commanding Module B is used
+# reference for the PCU Mode is parameter NPWD103B
+	
+
+   if ((NPWD103B.eng > 10.7) and (NPWD103B.eng < 25.25)) then    
+   # Case 1 - MEA between 10.7V and 25.25V -> PCU in APR Mode
+
+   VAR_result := 0;
+   endif;	
+
+   if ((NPWD103B.eng > 7.9) and (NPWD103B.eng < 10.2)) then    
+   # Case 2 - MEA between 7.9V and 10.2V -> PCU in BCR Mode
+
+   VAR_result := 1;
+
+   endif;	
+
+   if ((NPWD103B.eng > 0) and (NPWD103B.eng < 6.9))  then   
+   # Case 3 - MEA between 0V and 6.9V -> PCU in BDR Mode
+
+   VAR_result := 2;
+
+   endif;	
+
+   if (NPWD103B.eng > 25.25)  then   
+   # Case 4 - MEA out of limits
+
+   VAR_result := 3;
+
+   endif;	
+
+
+   return(VAR_result);
+
+else 
+# PCU Commanding Module A is used
+# reference for the PCU Mode is parameter NPWD1034
+
+  if ((NPWD1034.eng > 10.7) and (NPWD1034.eng < 25.25)) then    
+   # Case 1 - MEA between 10.7V and 25.25V -> PCU in APR Mode
+
+   VAR_result := 0;
+   endif;	
+
+   if ((NPWD1034.eng > 7.9) and (NPWD1034.eng < 10.2)) then    
+   # Case 2 - MEA between 7.9V and 10.2V -> PCU in BCR Mode
+
+   VAR_result := 1;
+   endif;	
+
+   if ((NPWD1034.eng > 0) and (NPWD1034.eng < 6.9))  then   
+   # Case 3 - MEA between 0V and 6.9V -> PCU in BDR Mode
+
+   VAR_result := 2;
+   endif;	
+
+   if (NPWD1034.eng > 25.25)  then   
+   # Case 4 - MEA out of limits
+
+   VAR_result := 3;
+
+   endif;	
+
+
+   return(VAR_result);
+
+endif;
+
+

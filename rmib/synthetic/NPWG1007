@@ -1,0 +1,20 @@
+#######################
+#
+# NPWG1007	Average Battery Voltage
+#
+#  This parameter averages the voltages of the three batteries.
+#
+# Created: 10 July 2002
+# Author: E. Montagnon
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	10/Jul/02: Script created
+#
+#######################
+
+   VAR_result := ((NPWD1134.eng + NPWD1224.eng + NPWD1314.eng) / 3);
+   return(VAR_result);
+

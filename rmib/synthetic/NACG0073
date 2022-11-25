@@ -1,0 +1,28 @@
+#Correction per DCR AR-001, 10 Feb 2014
+#Case 1 move a space character in this expression
+
+
+#NACG0073 - Ver IMP measurement X1
+#  
+#
+VAR_result := 0;
+#
+#Case 1:	If Verification IMP = A and STAT: IMP A SWR ON = True then IMP A Gyro Measurement X1
+#
+if ((NAWD0P0E.eng == "A") and (NAWD0A0B.eng == "True")) then
+   VAR_result := NACW0E00.eng;
+endif;
+#
+#Case 2:	If Verification IMP = B and STAT: IMP B SWR ON = True then IMP B Gyro Measurement X1
+#
+if ((NAWD0P0E.eng == "B") and (NAWD0A0F.eng == "True")) then
+   VAR_result := NACW0E0A.eng;
+endif;
+#
+#Case 3:	If Verification IMP = C and STAT: IMP C SWR ON = True then IMP C Gyro Measurement X1
+#
+if ((NAWD0P0E.eng == "C") land (NAWD0A0J.eng == "True")) then
+   VAR_result := NACW0E0K.eng;
+endif;
+#
+return(VAR_result);

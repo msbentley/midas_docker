@@ -1,0 +1,290 @@
+1	Limits for Length of Buf	R	U	D		
+3	Limits for LCV Number	R	U	D		
+4	Limits for Pointed SC Ax	R	R	D		
+5	Limits for RI TO J2000 Q	R	R	D		
+6	Limits for SAT CMD TO AS	R	R	D		
+7	Limits for Monitoring Se	R	U	D		
+8	Limits for Ground Comman	R	R	D		
+9	Limits for Spin Directio	R	R	D		
+10	Limits for Drive FCV Del	R	U	D		
+11	Limits for Cycle Thruste	R	U	D		
+12	Limits for ROT MAT SAT T	R	R	D		
+13	Limits for Cos Earth Spi	R	R	D		
+14	Limits for Command Type	R	U	D		
+15	Limits for Operation cod	R	U	D		
+16	Limits for Additional De	R	U	D		
+17	Limits for Size	R	U	D		
+18	Limits for SGM Group ID	R	U	D		
+19	Limits for N (1 Byte)	R	U	D		
+20	Limits for Prog RAM Addr	R	U	D		
+21	Limits for Data RAM Addr	R	U	D		
+22	Limits for DSP PROM Addr	R	U	D		
+23	Limits for EEPROM Addres	R	U	D		
+24	Limits for Code Size Par	R	U	D		
+25	Limits for Nb of Hot Pix	R	U	D		
+26	Limits for Index of Curr	R	U	D		
+27	Limits for S/C Velocity 	R	U	D		
+28	Limits for Integration T	R	U	D		
+29	Limits for Target Magnit	R	R	D		
+30	Limits for Windows Size 	R	U	D		
+31	Limits for CCD Temp Valu	R	R	D		
+32	Limits for Integration T	E	R	D		
+33	Limits for Window Center	R	U	D		
+34	Limits for Hot Pixel Sig	R	R	D		
+35	Limits for Nb of Steps	R	U	D		
+36	Limits for Integration T	R	U	D		
+37	Limits for Prog RAM Addr	R	U	D		
+38	Limits for Data RAM Addr	R	U	D		
+39	Limits for DSP PROM Addr	R	U	D		
+40	Limits for EEPROM Addres	R	U	D		
+41	Limits for Code Size Par	R	U	D		
+42	Limits for Nb of Hot Pix	R	U	D		
+43	Limits for Index of Curr	R	U	D		
+44	Limits for S/C Velocity 	R	R	D		
+45	Limits for Integration T	R	U	D		
+46	Limits for Target Magnit	R	R	D		
+47	Limits for X Windows Siz	R	U	D		
+48	Limits for CCD Temp Valu	R	R	D		
+49	Limits for Integration T	R	U	D		
+50	Limits for Window Center	R	U	D		
+51	Limits for Hot Pixel Sig	R	R	D		
+52	HK SID limits	R	U	D		
+53	Memory ID limits	R	U	D		
+54	Memory block limits	R	U	D		
+55	Memory address limits	R	U	D		
+57	Spectral window limits	R	U	D		
+58	Spectral collapse limits	R	U	D		
+59	Spatial window limits	R	U	D		
+60	Spatial collapse limits	R	U	D		
+61	Parameter file limits	R	U	D		
+62	Safety mask limits	R	U	D		
+66	Cycle Repeat limits	R	U	D		
+67	Cycle Time limits	R	U	D		
+68	Limits for Monitoring ID	R	U	D		
+69	Limits for Filter (serv1	R	U	D		
+70	Limits for Total segment	R	U	D		
+71	Limits for SID	R	U	D		
+72	Limits for Category	R	U	D		
+73	Limits for Number of cyc	R	U	D		
+74	Limits for Time-Out	R	U	D		
+75	Limits for N	R	U	D		
+76	Limits for N	R	U	D		
+77	Limits for Period Ratio	R	U	D		
+78	Limits for 1Hz Cycle Pha	R	U	D		
+79	Limits for N	R	U	D		
+80	Limits for PID serv 9	R	U	D		
+81	Limits for Nb of command	R	U	D		
+82	Limits for PID serv 14	R	U	D		
+83	Limits for N (TC 132,n)	R	U	D		
+84	Limits for N (TC 132,114	R	U	D		
+85	Limits for N (TC 136)	R	U	D		
+86	Limits for N (TC 138,10)	R	U	D		
+87	Limits for N (TC 138,11)	R	U	D		
+88	transfer mode limits	R	U	D		
+89	HK SID Limits	R	U	D		
+90	Memory ID limits	R	U	D		
+91	Memory block limits	R	U	D		
+92	Memory address limits	R	U	D		
+93	SMM Gunn Voltage Limits	R	U	D		
+94	IFP Power Level Limits	R	U	D		
+95	Large Multiplier	R	U	D		
+96	Small Multiplier	R	U	D		
+97	Mirror Position	R	U	D		
+98	MIRO Power Mode	R	U	D		
+99	CTS Integration Period	R	U	D		
+100	Continuum Sum Value	R	U	D		
+101	CTS Smoothing Value	R	U	D		
+102	CTS Heater Temperature	R	U	D		
+103	CTS Heater Power	R	U	D		
+104	CTS Data Masks	R	U	D		
+105	LO Frequency	R	U	D		
+106	Execution Time	R	U	D		
+107	Mirror Direction	R	U	D		
+108	Number of Steps	R	U	D		
+109	SMM Gun Voltage Auto-Con	R	U	D		
+110	DFMS Cover position/step	R	U	D		
+111	RTOF Cover position/step	R	U	D		
+112	TC - from 0 to 4	R	U	D		
+113	TC - range 0 to 1	R	U	D		
+114	TC - range 0 to 6	R	U	D		
+115	TC - range 1 to 11	R	U	D		
+116	TC - range 0 to 7	R	U	D		
+117	TC - range 0 to 3	R	U	D		
+118	EIU TM input rate	R	U	D		
+119	Volt. ref of TC ZRND1201	R	U	D		
+120	Volt. ref of TC ZRND1211	R	U	D		
+121	Volt. ref of TC ZRNR1201	R	U	D		
+122	Volt. ref of TC ZRNR1211	R	U	D		
+123	Volt. ref of TC ZRNC1201	R	U	D		
+124	Nb of time slot	R	U	D		
+125	Limits for CDMU Devices	R	U	D		
+126	Limits for RTU Devices	R	U	D		
+127	Limits for TM_destinatio	R	U	D		
+128	Limits for Default param	R	U	D		
+129	Limits for Length of blo	R	U	D		
+130	Limits for Length of blo	R	U	D		
+131	Limits for Length of blo	R	U	D		
+132	Limits for Length of blo	R	U	D		
+133	Limits for Delta pixels	R	U	D		
+134	Limits for Delta Magnitu	R	R	D		
+135	Limits for Attitude Unce	R	R	D		
+136	Limits for Attitude Quat	R	R	D		
+137	Limits for Attitude Quat	R	R	D		
+138	M-H Coolers Target Temp	R	U	D		
+139	M Cooler Target Temp	R	U	D		
+140	H Cooler Target Temp	R	U	D		
+141	M-H Coolers Speed	R	U	D		
+142	M Cooler Speed	R	U	D		
+143	H Cooler Speed	R	U	D		
+144	EEPROM Address	R	U	D		
+145	Enable_HK_SID	R	U	D		
+147	Unit_ID	R	U	D		
+148	Verification_cat	R	U	D		
+149	M_IR_WIN_X1	R	U	D		
+150	M_IR_WIN_X2	R	U	D		
+151	M_IR_WIN_Y1	R	U	D		
+152	M_IR_WIN_Y2	R	U	D		
+153	M_IR_VDETCOM	R	U	D		
+154	M_IR_VDETADJ	R	U	D		
+155	M_IR_DELAY	R	U	D		
+156	M_SU	R	U	D		
+157	M_Shutter_curr	R	U	D		
+158	M_Shutter_stab	R	U	D		
+159	M_Anneal_Limits	R	U	D		
+160	M_IR_EXPO	R	U	D		
+161	M_CCD_WIN_X1	R	U	D		
+162	M_CCD_WIN_X2	R	U	D		
+163	M_CCD_WIN_Y1	R	U	D		
+164	M_CCD_WIN_Y2	R	U	D		
+165	M_CCD_DELAY	R	U	D		
+166	M_CCD_EXPO	R	U	D		
+167	M_ANN_T_OUT	R	U	D		
+168	M_ECA_ACT	R	U	D		
+169	M_OPN_COV_STPS_1	R	U	D		
+170	M_CLOSE_COV_STPS	R	U	D		
+171	M_INIT_COV_STEPS	R	U	D		
+172	M_ERT	R	U	D		
+173	M_ACQ_MODE	R	U	D		
+174	M_COMPR	R	U	D		
+175	M_IR_DELAY1	R	U	D		
+176	M_IR_DELAY2	R	U	D		
+177	M_IR_DELAY3	R	U	D		
+178	M_IR_DELAY4	R	U	D		
+179	M_IR_DELAY5	R	U	D		
+180	M_IR_DELAY6	R	U	D		
+181	M_IR_EXPO1	R	U	D		
+182	M_IR_EXPO2	R	U	D		
+183	M_IR_EXPO3	R	U	D		
+184	M_IR_EXPO4	R	U	D		
+185	M_IR_EXPO5	R	U	D		
+186	M_IR_EXPO6	R	U	D		
+187	M_IR_L_CURR	R	U	D		
+188	M_CCD_DELAY1	R	U	D		
+189	M_CCD_DELAY2	R	U	D		
+190	M_CCD_DELAY3	R	U	D		
+191	M_CCD_DELAY4	R	U	D		
+192	M_CCD_DELAY5	R	U	D		
+193	M_CCD_DELAY6	R	U	D		
+194	M_CCD_EXPO1	R	U	D		
+195	M_CCD_EXPO2	R	U	D		
+196	M_CCD_EXPO3	R	U	D		
+197	M_CCD_EXPO4	R	U	D		
+198	M_CCD_EXPO5	R	U	D		
+199	M_CCD_EXPO6	R	U	D		
+200	M_CCD_L_CURR	R	U	D		
+202	H_Int_Spect_T_Num1	R	U	D		
+203	H_Int_Spect_T_Num2	R	U	D		
+204	H_Int_Spect_S_Num1	R	U	D		
+205	H_Int_Spect_S_Num2	R	U	D		
+206	H_Int_Rad_Num1	R	U	D		
+207	H_Int_Rad_Num2	R	U	D		
+208	H_V_Bias	R	U	D		
+209	H_I_Lamp_Spect_T	R	U	D		
+210	H_I_Lamp_Spect_S	R	U	D		
+211	H_I_Lamp_Radio	R	U	D		
+212	H_I_Shutter	R	U	D		
+213	H_Stab_Lamp_Time	R	U	D		
+214	H_Stab_Det_Time	R	U	D		
+215	H_Shutter_Time	R	U	D		
+216	H_Open_Cover_Step_1	R	U	D		
+217	H_Close_Cover_Step	R	U	D		
+218	H_Init_Cover_Step	R	U	D		
+219	H_ECA_ACT	R	U	D		
+220	H_Annealing_Check_Period	R	U	D		
+221	H_Annealing_Temp	R	U	D		
+222	H_Annealing_Time	R	U	D		
+223	H_Xwin	R	U	D		
+224	H_Ywin	R	U	D		
+225	H_Test_Init	R	U	D		
+226	H_Int_Science_Num1	R	U	D		
+227	H_Int_Science_Num2	R	U	D		
+228	H_Sum	R	U	D		
+229	H_N_Frame	R	U	D		
+230	H_N_Sum_Frame	R	U	D		
+231	H_Dark_Rate	R	U	D		
+232	H_Comp	R	U	D		
+233	Limits for Period Ratio	R	U	D		
+234	Limits for 1Hz Cycle Pha	R	U	D		
+235	Limits for Integration T	R	U	D		
+236	M_SS	R	U	D		
+237	M_SU_Angle_step	R	U	D		
+238	M_SU_Angle_IRT	R	U	D		
+239	M_D_BCK_rate	R	U	D		
+240	M_IR_L_stab	R	U	D		
+241	M_CCD_L_stab	R	U	D		
+243	M_IFE_VPS_MSB	R	U	D		
+244	M_IFE_IPS_MSB	R	U	D		
+245	M_IFE_PS_MSB	R	U	D		
+246	Load_MEM_Block_length	R	U	D		
+247	Dump_MEM_Block_length	R	U	D		
+248	Disable_HK_SID	R	U	D		
+255	M_IR_WIN_X1_Alternate	R	U	D		
+256	M_IR_WIN_X2_Alternate	R	U	D		
+257	M_IR_WIN_Y1_Alternate	R	U	D		
+258	M_IR_WIN_Y2_Alternate	R	U	D		
+259	M_IR_DELAY_Alternate	R	U	D		
+260	M_IR_EXPO_Alternate	R	U	D		
+261	Limits for TC 138,1)	R	U	D		
+262	Limits for Efficency Fac	R	U	D		
+264	Target Position	R	R	D		
+265	Target Rate	R	R	D		
+266	S.12 TC Mask 4 bits	R	U	D		
+267	S.12 TC Mask 8 bits	R	U	D		
+268	S.12 TC Mask 15 bits	R	U	D		
+270	x-coord/tmu commands	R	U	D		
+271	y-coord/tmu commands	R	I	D		
+272	Integration Count	R	U	D		
+273	MM subtraction vaalue	R	U	D		
+274	SMM subtraction value	R	U	D		
+275	Mem Length	R	U	D		
+276	Mem Data	R	U	D		
+277	MM LNA Power	R	U	D		
+278	SMM LNA Power	R	U	D		
+279	PLL Reset	R	U	D		
+280	Calibration Heater Power	R	U	D		
+281	USO Power	R	U	D		
+282	CTS Pulse Position	R	U	D		
+283	S/W Power Down	R	U	D		
+284	CTS Internal Calibration	R	U	D		
+285	Eng HK Cycle Skip	R	U	D		
+286	Process ID	R	U	D		
+287	Astroid Mode #1 (Start t	R	U	D		
+288	16 bits mask	R	U	D		
+2	Limits for LCV number	R	U	D		
+290	Limits for Y Windows Siz	R	U	D		
+291	Limits for Lander TC Fil	R	U	D		
+292	Limits for ALICE TC File	R	U	D		
+293	Limits for CONSERT TC Fi	R	U	D		
+294	Limits for COSIMA TC Fil	R	U	D		
+295	Limits for GIADA TC File	R	U	D		
+296	Limits for MIDAS TC File	R	U	D		
+297	Limits for MIRO TC File	R	U	D		
+298	Limits for OSIRIS TC Fil	R	U	D		
+299	Limits for ROSINA TC Fil	R	U	D		
+300	Limits for RPC TC File	R	U	D		
+301	Limits for VIRTIS TC Fil	R	U	D		
+302	Memory_Config limits	R	U	D		
+303	Used in AL-SEQ-404	R	U	D		
+304	Consert orbiter sounding	R	U	D		
+305	SSMM Science File Identi	R	U	D		
+306	Science DWL priority lev	R	U	D		

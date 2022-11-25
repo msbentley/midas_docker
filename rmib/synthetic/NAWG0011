@@ -1,0 +1,68 @@
+#######################
+#
+# NAWG0011	Observed Sun Vector Z
+#
+#  This parameter returns the z-component of the Sun vector in the S/C frame.
+#       It takes into account the proper SAS measurement (SAS X or XZ).
+#
+# Created: 11 Apr 2002
+# Author: I. Tanco
+# Descripton of variables:
+#	VAR_t3: Angle between the sun vector and its z-component
+#		in SAS reference frame. So Sin(t3) = Sz/S
+#	VAR_result : End result.
+#
+# Change History:
+#	04/Jul/02: Modified script to use +Y SAS unless SA not deployed.
+#	08/Nov/02: Using Fictitious SAS instead. Now theta1 is -SASx2 and theta2 is SASx1.
+# 	09/Dec/02: Added IF loops to check for zero values before division.
+#       22/Jul/04: Removed Check on Solar array deployment [no SA stowing envisioned]
+#			Also commented out usage of SAS X and XZ data.
+#
+#######################
+
+# Use YP SAS angle readings,
+
+   if (tan(-NACW0K0B.eng)**2 + tan(NACW0K0A.eng)**2) == 0 then
+      VAR_t3 := 0;
+   else
+      VAR_t3 := arctan( 1/(tan(-NACW0K0B.eng)**2 + tan(NACW0K0A.eng)**2)**0.5 );
+   endif;
+
+   VAR_Sysas := sin(VAR_t3) * tan(NACW0K07.eng);
+   VAR_result := (VAR_Sysas);
+
+
+# If Solar Panels are not deployed, determine which SAS reading to use
+#	NAWD0K0D determines the most lighted SAS
+
+	# Case 1: SAS X most lighted
+	#	in this case the Sz  in S/C RF is Sy in the SAS
+
+#	if NAWD0K0D.raw == 1 then
+#	   if (tan(NACW0K02.eng)**2 + tan(-NACW0K03.eng)**2) == 0 then
+#		VAR_t3 := 0;
+#	   else
+#		VAR_t3 := arctan( 1/(tan(NACW0K02.eng)**2 + tan(-NACW0K03.eng)**2)**0.5 );
+#	   endif;
+
+#	   VAR_Szsas := sin(VAR_t3) * tan(NACW0K03.eng);
+#	   VAR_result := (VAR_Szsas);
+#	   return(VAR_result);
+#	endif;
+
+	# Case 2: SAS XZ most lighted
+	#	in this case the Sz  in S/C RF is Sy in the SAS
+
+#	if NAWD0K0D.raw == 2 then
+#	   if (tan(NACW0K04.eng)**2 + tan(-NACW0K05.eng)**2) == 0 then
+#		VAR_t3 := 0;
+#	   else
+#		VAR_t3 := arctan( 1/(tan(NACW0K04.eng)**2 + tan(-NACW0K05.eng)**2)**0.5 );
+#	   endif;
+
+#	   VAR_Szsas := sin(VAR_t3) * tan(NACW0K04.eng);
+#	   VAR_result := (VAR_Szsas);
+#	   return(VAR_result);
+#	endif;
+

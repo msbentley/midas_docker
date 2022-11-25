@@ -1,0 +1,580 @@
+2513	1st cal - Thruster Therm (PT-200	R	U	D	degC	
+2562	1rst cal - PressTrans Therm (PT-	R	U	D	degC	
+25	Calib V to ?C for YSI-44907 Ther	R	I	D	degC	
+26	Calib V to ?C for YSI-44907 Ther	R	U	D	degC	
+27	Calib V to ?C for YSI-44907 STR/	R	U	D	degC	
+28	Calib V to ?C for RWA 15K Therm.	R	U	D	degC	
+29	Cal curve for HV set	R	U	D	kV	
+30	Cal curve for MCP V	R	U	D	kV	
+31	Cal curve for Anode V	R	U	D	V	
+32	Cal curve for Strip I	R	U	D	uA	
+33	Cal curve for temp sensors	R	U	D	degC	
+34	Cal curve for discriminator	R	U	D	V	
+35	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+36	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+37	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+2313	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+2314	Calib V to 0C for PT-2000 Therm.	R	U	D	degC	
+38	OCXO Tmp	R	U	D	degC	
+39	DIGI Board Tmp	R	U	D	degC	
+2315	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+40	PT500	R	I	D	degC	
+3144	PT1000	R	I	D	DegC	
+42	Temperature to Voltage	R	U	D	degC	
+43	Polynomial calib for DMS SW	R	U	D	.	
+44	Polynomial calib for DMS SW	R	U	D	.	
+45	Polynomial calib for DMS SW	R	U	D	.	
+46	First calib for Thermistor acq. 	R	U	D	degC	
+47	Temperature to Voltage (SSMM)	R	U	D	degC	
+48	Temperature to Voltage, CDMU1 PS	R	U	D	degC	
+49	Temperature to Voltage, CDMU1 PS	R	U	D	degC	
+50	Temperature to Voltage, CDMU2 PS	R	U	D	degC	
+51	Temperature to Voltage, CDMU2 PS	R	U	D	degC	
+2613	Generic one-to-one(AOCMS Earth D	R	R	D	km	
+3056	Convert seconds to minutes	R	I	D	min	
+2996	ES 5V/12V-TEMP	R	U	D	degC	
+3015	ES BULK-TEMP	R	U	D	degC	
+53	Threshold	R	U	D	V	
+2514	FB Temperature	R	U	D	degC	
+2797	Laser 1,2,3,4 Temperatures	R	U	D	degC	
+2798	Laser 1 Light Mon.	R	U	D	Watt	
+2799	Laser 2Light Mon.	R	U	D	Watt	
+2800	Laser 3 Light Mon.	R	U	D	Watt	
+2801	Laser 4 Light Mon.	R	U	D	Watt	
+2802	IS Plate Temperature	R	U	D	degC	
+2803	MBS1 Temperature	R	U	D	degC	
+2804	MBS2 Temperature	R	U	D	degC	
+2805	MBS3 Temperature	R	U	D	degC	
+2806	MBS4 Temperature	R	U	D	degC	
+2807	MBS5 Temperature	R	U	D	degC	
+2808	PS Temperature	R	U	D	degC	
+2809	+5V Power Consum - Nom	R	U	D	mA	
+2810	+15V Power Consum - Nom	R	U	D	mA	
+2811	-15V Power Consum - Nom	R	U	D	mA	
+3179	+5V Power Consum - Red	R	U	D	mA	
+3180	+15V Power Consum - Red	R	U	D	mA	
+3181	-15V Power Consum - Red	R	U	D	mA	
+54	Azimuth Encoder Angle	R	U	D	deg	
+55	Elevation Encoder Angle	R	U	D	deg	
+3016	Position Motor 2 cal	R	U	D	Nm	
+57	16 bit ADC data	R	I	D	V	
+59	Temperature	R	I	D	degC	
+60	+15 V-Monitor	R	I	D	V	
+61	HV-Monitor	R	I	D	V	
+63	pulse generator pulse width	R	U	D	usec	
+64	cantilever phase signal	R	I	D	deg	
+65	operating point in percent	R	U	D	%	
+66	frequency high value	R	U	D	Hz	
+1610	frequency step/low value	R	U	D	Hz	
+1611	operating point [% of free ampli	R	I	D	%	
+3235	zoom factor [% of feature size]	R	U	D	%	
+2316	Calib V to 0C for PT-2000 Therm.	R	U	D	degC	
+2317	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+67	Temperature to Voltage, RTH01	R	U	D	degC	
+68	Temperature to Voltage, RTH01	R	U	D	degC	
+69	Temperature to Voltage, RTH01	R	U	D	degC	
+2318	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+70	AnodeGrid V Filament	R	U	D	V	
+71	AnodeGrid V Microtip	R	U	D	V	
+72	Filament I	R	U	D	A	
+73	Extraction V Microtip	R	U	D	V	
+74	Total Emission I Microtip	R	U	D	mA	
+75	+12V I	R	U	D	mA	
+76	Ion I Filament Low	R	U	D	pA	
+77	Ion I Microtip Low	R	U	D	pA	
+78	Emission I Filament Low	R	U	D	uA	
+79	Emission I Microtip Low	R	U	D	uA	
+80	Elect. Temp	R	U	D	degC	
+81	Sensor Temp	R	U	D	degC	
+82	+12V Filament 	R	U	D	V	
+83	-12V Filament	R	U	D	V	
+84	+12V Microtip	R	U	D	V	
+85	-12V Microtip	R	U	D	V	
+86	COPS_Pressure	R	U	D	mbar	
+87	COPS_Pressure_Grad	R	U	D	mbar	
+88	MEP I MEP	R	U	D	A	
+89	MEP I Float	R	U	D	A	
+90	MEP MG	R	U	D	V	
+91	MEP ISB	R	U	D	V	
+92	MEP HVCEM DAC	R	U	D	V	
+93	MEP HVACC DAC 	R	U	D	V	
+94	ISC  FIL 1 Bias 	R	U	D	uA	
+95	ISC  FIL 2 Bias 	R	U	D	uA	
+96	ISC  FIL 1 E 2uA	R	U	D	uA	
+97	ISC  FIL 1 I	R	U	D	A	
+98	ISC  FIL 2 E 2uA	R	U	D	uA	
+99	ISC  FIL 2 I	R	U	D	A	
+100	ISC  ERP	R	U	D	V	
+101	ISC  IRP1	R	U	D	V	
+102	ISC  IRP2	R	U	D	V	
+103	ISC  ISP	R	U	D	V	
+104	ISC SLL VMON	R	U	D	V	
+105	ISC SLR VMON	R	U	D	V	
+106	ISC SES VMON	R	U	D	V	
+107	ISC SEB VMON	R	U	D	dV	
+108	ISC TLR VMON	R	U	D	V	
+109	ISC TLL VMON	R	U	D	V	
+110	ISC HV I	R	U	D	mA	
+111	ISC HV VMON	R	U	D	V	
+112	ASP E HVB DAC	R	U	D	V	
+113	ASP E HVB I	R	U	D	mA	
+114	ASP E FDP DAC	R	U	D	V	
+115	ASP D VREF 	R	U	D	V	
+116	ASP D ESS2 DAC	R	U	D	V	
+117	ASP D ESS1 DAC	R	U	D	V	
+118	ASP D Z2Q DAC	R	U	D	V	
+119	ASP C ESAI DAC	R	U	D	V	
+120	ASP C ESAO DAC	R	U	D	V	
+121	ASP C ESAIT DAC	R	U	D	V	
+122	ASP C Z1QV DAC	R	U	D	V	
+123	ASP A HP DAC	R	U	D	V	
+124	ASP A RQ DAC	R	U	D	V	
+125	ASP A MP DAC	R	U	D	V	
+126	ASP A CEM REP DAC	R	U	D	V	
+127	ASP B MAG DAC	R	U	D	degC	
+128	FDP MCP Back 1	R	U	D	V	
+129	FDP MCP Back 2	R	U	D	V	
+130	FDP RDP Temp	R	U	D	degC	
+131	FDP LEDA Temp	R	U	D	degC	
+132	FDP MCP Front	R	U	D	V	
+133	FDP FDP-C I	R	U	D	mA	
+134	MEP IS Temp	R	U	D	degC	
+135	MEP MOT Temp	R	U	D	degC	
+136	ISC SLL RMON	R	U	D	V	
+137	ISC SLR RMON	R	U	D	V	
+138	ISC SES RMON	R	U	D	V	
+139	ISC SEB RMON	R	U	D	dV	
+140	ISC TLR RMON	R	U	D	V	
+141	ISC TLL RMON	R	U	D	V	
+142	MEP H Temp	R	U	D	degC	
+143	ISC HV RMON	R	U	D	V	
+144	ISC SEB DMON	R	U	D	V	
+145	ISC SES DMON	R	U	D	V	
+146	ISC SLR DMON	R	U	D	V	
+147	ISC SLL DMON	R	U	D	V	
+148	ISC TLR DMON	R	U	D	V	
+149	ISC TLL DMON	R	U	D	V	
+150	ISC HV DMON	R	U	D	V	
+151	ISC PWR DMON	R	U	D	V	
+152	ASP C ESAC	R	U	D	V	
+153	ASP E HVB MON	R	U	D	V	
+154	ASP E FDP ERR	R	U	D	V	
+155	ASP D Z2QV  ERR	R	U	D	V	
+156	ASP D Z2QH  ERR	R	U	D	V	
+157	ASP D ESS2  ERR	R	U	D	V	
+158	ASP D ESS1  ERR	R	U	D	V	
+159	ASP C ESAO  ERR	R	U	D	V	
+160	ASP C ESAI  ERR	R	U	D	V	
+161	ASP C Z1QV  ERR	R	U	D	V	
+162	ASP C Z1QH  ERR	R	U	D	V	
+163	ASP A CEM  ERR	R	U	D	V	
+164	ASP A HP  ERR	R	U	D	V	
+165	ASP A RQ  ERR	R	U	D	V	
+166	ASP A MP  ERR	R	U	D	V	
+167	ASP B ESA Temp	R	U	D	degC	
+168	ASP B ASP Temp	R	U	D	degC	
+169	ASP B 15V Mon	R	U	D	V	
+170	FDP -5V	R	U	D	V	
+171	FDP +5V	R	U	D	V	
+172	FDP +7.5V	R	U	D	V	
+173	FDP -7.5V	R	U	D	V	
+174	REF43 Temp 	R	U	D	degC	
+175	MEP GCU1 I	R	U	D	mA	
+176	MEP GCU2 I	R	U	D	mA	
+177	MEP GCU1PIn	R	U	D	mbar	
+178	MEP GCU2 Pin	R	U	D	mbar	
+179	MEP GCU1POut	R	U	D	mbar	
+180	MEP GCU1POut	R	U	D	mbar	
+181	MEP GCU1 Temp1	R	U	D	degC	
+182	MEP GCU2 Temp1	R	U	D	degC	
+183	MEP GCU1 Temp2	R	U	D	degC	
+184	MEP GCU2 Temp2	R	U	D	degC	
+185	MEP CEM I	R	U	D	uA	
+2727	MEP CEM ANA HG	R	U	D	uA	
+186	MEP CEM STIM AMP	R	U	D	fC	
+187	MEP CEM ANA LG	R	U	D	V	
+188	MEP CEM STIM THR	R	U	D	.	
+189	MEP HVCEM I	R	U	D	mA	
+190	MEP HVCEM ERR	R	U	D	V	
+191	MEP HVACC I	R	U	D	mA	
+192	MEP HVACC ERR	R	U	D	V	
+193	MEP VREF	R	U	D	V	
+194	MEP D REF RED	R	U	D	V	
+195	MEP E REF RED	R	U	D	V	
+196	MEP MOT I	R	U	D	A	
+197	FDP FC Out	R	U	D	V	
+198	FDP Ground	R	U	D	V	
+199	MEP A Temp	R	U	D	degC	
+200	MEP N Temp	R	U	D	degC	
+201	MEP G Temp	R	U	D	degC	
+202	MC_FEC_OS_FIHEAT_I	R	U	D	mA	
+203	MC_FEC_SS_FIHEAT_I	R	U	D	mA	
+204	MC_FEC_OS_REP_V_#A	R	U	D	V	
+205	MC_FEC_OS_REP_V_#B	R	U	D	V	
+206	MC_FEC_SS_REP_V_#A	R	U	D	V	
+207	MC_FEC_SS_REP_V_#B	R	U	D	V	
+208	MC_FEC_OS_FIL_V	R	U	D	V	
+209	MC_FEC_SS_FIL_V	R	U	D	V	
+210	MC_FEC_SS_FIL_I	R	U	D	uA	
+211	MC_FEC_OS_ENT1_V	R	U	D	V	
+212	MC_FEC_OS_ENT1_I	R	U	D	uA	
+213	MC_FEC_SS_TRAP_V	R	U	D	V	
+214	MC_FEC_HVVG_V	R	U	D	V	
+215	MC_FEC_HEAT_VG_V	R	U	D	V	
+216	MC_GCU_POW_#1	R	U	D	V	
+217	MC_GCU_POW_#2	R	U	D	V	
+218	MC_GCU_I_#1	R	U	D	V	
+219	MC_GCU_I_#2	R	U	D	V	
+220	MC_GCU_IN_PRES_#1	R	U	D	V	
+221	MC_GCU_OUT_PRES_#1	R	U	D	AU	
+222	MC_GCU_IN_PRES_#2	R	U	D	V	
+223	MC_GCU_OUT_PRES_#2	R	U	D	AU	
+224	MC_HM_PW	R	U	D	V	
+225	MC_HM_DEL	R	U	D	V	
+226	MC_MOT_TOR	R	U	D	V	
+227	PSU_+40_Val	R	U	D	V	
+228	PSU_+70_Val	R	U	D	V	
+229	PSU_ELB_OS	R	U	D	V	
+230	PSU_ELA_OS	R	U	D	V	
+231	PSU_GR_OS	R	U	D	V	
+232	PSU_BP_OS	R	U	D	V	
+233	PSU_GR_SS	R	U	D	V	
+234	PSU_BP_SS 	R	U	D	V	
+235	PSU_SL_SS 	R	U	D	V	
+236	PSU_A2_SS 	R	U	D	V	
+237	PSU_A1_SS 	R	U	D	V	
+238	PSU_SL_OS	R	U	D	V	
+239	PSU_A2_OS	R	U	D	V	
+240	PSU_A1_OS	R	U	D	V	
+241	PSU_P_SS 	R	U	D	V	
+242	PSU_P_OS	R	U	D	V	
+243	PSU_D	R	U	D	V	
+244	PSU_HM3	R	U	D	V	
+245	PSU_R1	R	U	D	V	
+246	PSU_R2	R	U	D	V	
+247	PSU_RL	R	U	D	V	
+248	PSU_HM1	R	U	D	V	
+249	PSU_HM2	R	U	D	V	
+250	PSU_HML	R	U	D	V	
+251	PSU_M_OS	R	U	D	V	
+252	PSU_M_SS 	R	U	D	V	
+253	PSU_E2_OS	R	U	D	V	
+254	MC_FEC_TEMP	R	U	D	degC	
+255	MC_FEC_PVCC_V	R	U	D	V	
+256	MC_FEC_MVCC_V	R	U	D	V	
+257	MC_FEC_PVDD_V	R	U	D	V	
+258	MC_FEC_MVDD_V	R	U	D	V	
+259	MC_GCU_TEMP_TANK_#1	R	U	D	degC	
+260	MC_GCU_TEMP_PIRANI_#1	R	U	D	degC	
+261	MC_GCU_TEMP_TANK_#2	R	U	D	degC	
+262	MC_GCU_TEMP_PIRANI_#2	R	U	D	degC	
+263	MC_GEX_TEMP	R	U	D	degC	
+264	MC_GEX_PVCC	R	U	D	V	
+265	MC_GEX_VD	R	U	D	V	
+266	MC_IEX_PVCC	R	U	D	V	
+267	MC_IEX_VD	R	U	D	V	
+268	MC_HM_TEMP	R	U	D	degC	
+269	MC_HM_PVCA	R	U	D	V	
+270	MC_HM_VD	R	U	D	V	
+271	MC_ETSL_TEMP	R	U	D	degC	
+272	MC_ETSL_PVCC	R	U	D	V	
+273	MC_ETSL_MVCA	R	U	D	V	
+274	MC_ETSL_PVDD	R	U	D	V	
+275	MC_ETSL_MVDD	R	U	D	V	
+276	MC_MOT_TEMP	R	U	D	degC	
+277	MC_MOT_PVCC	R	U	D	V	
+278	MC_HEAT_OS _VG	R	U	D	V	
+279	MC_ETS_TEMP_CLK	R	U	D	degC	
+280	MC_ETS_TEMP_DIG	R	U	D	degC	
+281	MC_ETS_33V	R	U	D	V	
+282	MC_ETS_PVCA	R	U	D	V	
+283	MC_ETS_MVCA	R	U	D	V	
+284	MC_ETS_VE	R	U	D	V	
+285	MC_ETS_PVDD	R	U	D	V	
+286	MC_ETS_MVDD	R	U	D	V	
+287	MC_ETS_VSH	R	U	D	V	
+288	PSU_+15_CUR	R	U	D	mA	
+289	PSU_+24_CUR	R	U	D	mA	
+290	PSU_+5_CUR	R	U	D	mA	
+291	PSU_+5_Val	R	U	D	V	
+292	PSU_-5_Val	R	U	D	V	
+293	PSU_+15_Val	R	U	D	V	
+294	PSU_-15_Val	R	U	D	V	
+295	PSU_+24_Val	R	U	D	V	
+296	PSU_+8_Val	R	U	D	V	
+297	PSU_+5_Add_Val	R	U	D	V	
+298	PSU_-5_Cur	R	U	D	mA	
+299	PSU_-15_Cur	R	U	D	mA	
+300	PSU_-40/70_Cur	R	U	D	mA	
+301	PSU_+5_Add_Cur	R	U	D	mA	
+302	PSU_+8_Cur	R	U	D	mA	
+303	PSDC_BP_OS_Temp	R	U	D	degC	
+304	PSDC_BP_SS _Temp	R	U	D	degC	
+305	PSDC_MCP_OS_Temp	R	U	D	degC	
+306	PSDC_MCP_SS_Temp	R	U	D	degC	
+307	PSDC_HV1_Temp	R	U	D	degC	
+308	PSDC_LVPS_Temp	R	U	D	degC	
+309	MC_ETS_EX_DEL	R	U	D	nsec	
+310	MC_ETS_EX_TOF	R	U	D	nsec	
+311	MC_ETS_CAL_DEL	R	U	D	nsec	
+312	MC_ETS_CAL_PH	R	U	D	mV	
+313	MC_ETS_CAL_PW	R	U	D	nsec	
+2728	MC_HEAT_SS _VG	R	U	D	V	
+2729	MC_ETSL_PVCA	R	U	D	V	
+2320	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+314	PSU Temperature	R	U	D	degC	
+315	A/D +5V Level	R	I	D	V	
+316	A/D -5V Level	R	I	D	V	
+317	A/D +12V Level	R	I	D	V	
+318	A/D -12V Level	R	I	D	V	
+319	A/D +28V Level	R	I	D	V	
+320	ELC MCP Voltage	R	I	D	V	
+321	ION MCP Voltage	R	I	D	V	
+322	HVMON Voltage	R	I	D	V	
+323	Negative 5V Voltage	R	I	D	V	
+324	Positive 5V Voltage	R	I	D	V	
+325	Negative 12V Voltage	R	I	D	V	
+326	Positive 12V Voltage	R	I	D	V	
+3232	ExpMan8 to U32	R	U	D	.	
+3062	ESA Voltage	R	I	D	V	
+3063	DEF Voltage	R	I	D	V	
+3064	ION MCP DAC Voltage	R	I	D	V	
+3065	ELC MCP DAC Voltage	R	I	D	V	
+3066	ELC ESA DAC Voltage	R	I	D	V	
+3067	ION ESA DAC Voltage	R	I	D	V	
+3068	ELC DEF DAC Voltage	R	U	D	V	
+3069	ION DEF DAC Voltage	R	U	D	V	
+3070	Temperature Reading	R	I	D	degC	
+327	Opto HV monitor	R	U	D	kV	
+328	Mcp HV monitor	R	U	D	kV	
+329	Deflection HV monitor	R	U	D	kV	
+330	Deflection LV monitor	R	U	D	V	
+331	Pacc. HV monitor	R	U	D	kV	
+333	Grid LV monitor	R	U	D	V	
+334	Sensor temperature	R	U	D	degC	
+335	DPU temperature	R	U	D	degC	
+336	Upper entrance HV mon.	R	U	D	kV	
+338	Lower entrance HV mon	R	U	D	kV	
+339	Processor Temp	R	U	D	degC	
+2812	Temperature 2	R	I	D	degC	
+340	MAG Temperature 1	R	U	D	degC	
+341	MAG Temperature 2	R	U	D	degC	
+342	B Fld X Component	R	U	D	nT	
+343	B Fld Y Component	R	U	D	nT	
+344	B Fld Z Component	R	U	D	nT	
+2813	MAG +5V	R	I	D	V	
+2814	MAG -5V	R	I	D	V	
+345	Calib V-0C RM118MF(PT500) Therm.	R	U	D	degC	
+346	Calib V-0C RM118MF(PT500) Therm.	R	U	D	degC	
+347	Shaft Encoder Telemetry + Y	R	U	D	deg	
+348	Shaft Encoder Telemetry - Y	R	U	D	deg	
+349	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+350	Sec.Volt - Motor Voltage Main & 	R	I	D	V	
+351	Sec.Volt - +5 Voltage Main & Red	R	I	D	V	
+1827	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+2453	Calib V to 0C for PT-2000 Therm.	R	U	D	degC	
+2321	Calib V to 0C YSI-44907 Therm	R	U	D	degC	
+3135	one to one calcurve for syntheti	R	R	D	V	
+2868	TM Snapshot Duration	R	U	D	min	
+2322	Calib V to 0C for PT-2000 Therm.	R	U	D	degC	
+2815	Calib V to 0C for PT-2000 Thrm 2	R	U	D	degC	
+2816	Calib V to 0C for PT-2000 Thrm 3	R	U	D	degC	
+2817	Calib V to 0C for PT-2000 Thrm 4	R	U	D	degC	
+2818	Calib V to 0C for PT-2000 Thrm 5	R	U	D	degC	
+2819	Calib V to 0C for PT-2000 Thrm 6	R	U	D	degC	
+359	DPU MMB Size [MB]	R	U	D	Mbyt	
+360	DPU MMB Fill State [%]	R	U	D	Mbyt	
+361	DPU CPU Load [%]	R	U	D	%	
+2454	MCB Temperatures [C]	R	U	D	degC	
+2455	MCB Reference Voltages [V]	R	U	D	degC	
+2456	Red. NAC Front Door I/F 	R	U	D	degC	
+2457	NAC Filter Wheel Motor #1 	R	U	D	degC	
+2458	NAC Filter Wheel Motor #2 	R	U	D	degC	
+2459	NAC CCD   	R	U	D	degC	
+2460	Main NAC Interface Plate 	R	U	D	degC	
+2461	Red. NAC Interface Plate  	R	U	D	degC	
+2462	NAC M1/M3 	R	U	D	degC	
+2463	NAC M2  	R	U	D	degC	
+2464	WAC Front Door Motor 	R	U	D	degC	
+2465	WAC Filter Wheel Motor #1 	R	U	D	degC	
+2466	WAC Filter Wheel Motor #2 	R	U	D	degC	
+2467	WAC CCD   	R	U	D	degC	
+2468	Main WAC Structure  #1 	R	U	D	degC	
+2469	Red. WAC Structure  #1	R	U	D	degC	
+2470	Main WAC Structure  #2  	R	U	D	degC	
+2471	Red. WAC Structure  #2	R	U	D	degC	
+2472	WAC  #3	R	U	D	degC	
+2473	WAC  #4	R	U	D	degC	
+2474	Main DSP 	R	U	D	degC	
+2475	Red. DSP 	R	U	D	degC	
+2476	MCB Controller Board 	R	U	D	degC	
+2477	MCB Driver Board 	R	U	D	degC	
+2478	MCB NAC Reference Voltages [V]	R	U	D	V	
+2479	MCB WAC Reference Voltages [V]	R	U	D	V	
+362	NAC Temperatures [C]	R	I	D	degC	
+363	NAC 24.5V Monitor [V]	R	I	D	V	
+364	NAC 8V Monitor [V[	R	I	D	V	
+365	NAC -12V Monitor [V]	R	I	D	V	
+366	NAC Analogue 5V Monitor [V]	R	I	D	V	
+367	NAC Digital 5V Monitor [V]	R	I	D	V	
+368	NAC -5V Monitor [V]	R	I	D	V	
+369	NAC Dosis [kRad]	R	I	D	Rad	
+370	NAC 24V Current [mA]	R	I	D	mA	
+371	NAC 8V Current [mA]	R	I	D	mA	
+372	NAC -12V Current [mA]	R	I	D	mA	
+373	NAC Analogue 5V Current [mA]	R	I	D	mA	
+374	NAC Digital 5V Current [mA]	R	I	D	mA	
+375	NAC -5V Current [mA]	R	I	D	mA	
+2480	NAC Temperatures [C] 2	R	I	D	degC	
+2481	NAC Temperatures [C] 3	R	I	D	degC	
+2482	NAC Temperatures [C] 4	R	I	D	degC	
+2483	NAC Temperatures [C] 5	R	I	D	degC	
+2484	NAC Temperatures [C] 6	R	I	D	degC	
+2485	NAC Temperatures [C] 7	R	I	D	degC	
+2486	NAC Temperatures [C] 8	R	I	D	degC	
+376	PCM Main Temperature [C]	R	U	D	degC	
+377	PCM Red. Temperature [C]	R	U	D	degC	
+378	PCM Main 28V Monitor [V[	R	U	D	V	
+379	PCM Red. 28V Monitor [V[	R	U	D	V	
+380	PCM 5V Monitor [V]	R	U	D	V	
+381	PCM 3V Monitor [V]	R	U	D	V	
+382	PCM 15V Monitor [V]	R	U	D	V	
+383	PCM -15V Monitor [V]	R	U	D	V	
+384	PCM Main 28V Current [A]	R	U	D	mA	
+385	PCM Red. 28V Current [A]	R	U	D	mA	
+386	PCM 5V Current [A]	R	U	D	mA	
+387	PCM 3V Current [A]	R	U	D	mA	
+388	PCM 15V Current [A]	R	U	D	mA	
+389	PCM -15V Current [A]	R	U	D	mA	
+390	WAC Temperatures [C]	R	I	D	degC	
+391	WAC 24V Monitor [V]	R	I	D	V	
+392	WAC 8V Monitor [V[	R	I	D	V	
+393	WAC -12V Monitor [V]	R	I	D	V	
+394	WAC Analogue 5V Monitor [V]	R	I	D	V	
+395	WAC Digital 5V Monitor [V]	R	I	D	V	
+396	WAC -5V Monitor [V]	R	I	D	V	
+397	WAC Dosis [kRad]	R	I	D	Rad	
+398	WAC 24V Current [mA]	R	I	D	mA	
+399	WAC 8V Current [mA]	R	I	D	mA	
+400	WAC -12V Current [mA]	R	I	D	mA	
+401	WAC Analogue 5V Current [mA]	R	I	D	mA	
+402	WAC Digital 5V Current [mA]	R	I	D	mA	
+403	WAC -5V Current [mA]	R	I	D	mA	
+2487	WAC Temperatures [C] 2	R	I	D	degC	
+2488	WAC Temperatures [C] 3	R	I	D	degC	
+2489	WAC Temperatures [C] 4	R	I	D	degC	
+2490	WAC Temperatures [C] 5	R	I	D	degC	
+2491	WAC Temperatures [C] 6	R	I	D	degC	
+2492	WAC Temperatures [C] 7	R	I	D	degC	
+2493	WAC Temperatures [C] 8	R	I	D	degC	
+404	HK Packet Frequency	R	U	D	sec	
+405	Temperature to Voltage, ANC (Typ	R	I	D	degC	
+2413	Temperature to Voltage, ANC (Typ	R	U	D	degC	
+3125	Temperature to Voltage PL_TMT_3	R	U	D	.	
+406	Temperature to Voltage	R	U	D	degC	
+2323	S-RF Output Power	R	U	D	dBm	
+2324	X-RF Output Power	R	U	D	dBm	
+3185	X-RF Output Power	R	U	D	dBm	
+2325	X-TX CV Voltage	R	U	D	V	
+407	Voltage(high) to Voltage	R	U	D	V	
+408	Current (mA) to Voltage	R	U	D	mA	
+409	Temperature to Voltage	R	U	D	degC	
+410	Voltage(high) to Voltage	R	U	D	V	
+411	Current(mA) to Voltage	R	U	D	mA	
+2494	S-Band NB-AGC - unmod.	R	U	D	dBm	
+2495	S-Band WB-AGC - unmod.	R	U	D	dBm	
+2496	X-Band NB-AGC - unmod.	R	U	D	dBm	
+2497	X-Band WB-AGC - unmod.	R	U	D	dBm	
+2820	S-RF Output Power	R	U	D	dBm	
+2821	X-RF Output Power	R	U	D	dBm	
+2822	X-TX CV Voltage	R	U	D	V	
+412	Temperature to Voltage	R	U	D	degC	
+413	Temperature to Voltage	R	U	D	degC	
+2637	S-Band NB-AGC - unmod.	R	U	D	dBm	
+2638	S-Band WB-AGC - unmod.	R	U	D	dBm	
+2639	X-Band NB-AGC - unmod.	R	U	D	dBm	
+2640	X-Band WB-AGC - unmod.	R	U	D	dBm	
+2502	Loop Error Term.	R	U	D	Hz	
+415	DPU temp	R	U	D	degC	
+416	PS temp	R	U	D	degC	
+417	DHSU volt	R	U	D	V	
+418	DHSU curr	R	U	D	A	
+419	M Cool Tip temp	R	U	D	degK	
+420	M Cool Mot volt	R	U	D	V	
+421	M Cool Mot curr	R	U	D	A	
+422	M CCE sec volt	R	U	D	V	
+423	M time	R	U	D	sec	
+424	CCD VDR	R	U	D	V	
+425	CCD VDD	R	U	D	V	
+426	M_+5V	R	U	D	V	
+427	M_+12V	R	U	D	V	
+428	M_-12V	R	U	D	V	
+429	M_+20V	R	U	D	V	
+430	M_+21V	R	U	D	V	
+431	M_VIS_R_Temp	R	U	D	degC	
+432	M_C_Temp_Curr	R	U	D	A	
+433	MCCD_Temp_Offs	R	U	D	V	
+434	MCCD_Lamp_Volt	R	U	D	mA	
+435	VDETCOM volt	R	U	D	V	
+436	VDETADJ volt	R	U	D	V	
+437	M_I_Temp_Curr	R	U	D	A	
+438	M_SU_Mot_Curr	R	U	D	A	
+439	M_IR_Lamp_Curr	R	U	D	mA	
+440	M_Shut_Curr	R	U	D	mA	
+441	M_MIRR_SIN	R	U	D	.	
+442	M_MIRR_COS	R	U	D	.	
+443	M_IR_TEMP	R	U	D	degK	
+444	Ms_VLineRef	R	I	D	V	
+445	Ms_VDetDig	R	I	D	V	
+446	Ms_VDetAna	R	I	D	V	
+447	Ms_VDetcom	R	I	D	V	
+448	Ms_VDetadj	R	I	D	V	
+449	Ms_V+5	R	I	D	V	
+450	Ms_V+12	R	I	D	V	
+451	Ms_V+21	R	I	D	V	
+452	Ms_V-12	R	I	D	V	
+453	Ms_TempVref	R	I	D	V	
+454	Ms_IVdetAna	R	I	D	mA	
+455	Ms_IVdetDig	R	I	D	mA	
+456	Ms_I+5	R	I	D	mA	
+457	Ms_I+12	R	I	D	mA	
+458	Ms_ILamp	R	I	D	mA	
+459	Ms_IShut_Heat	R	I	D	mA	
+460	Ms_Temp_Prism	R	U	D	degC	
+461	Ms_Temp_CalS	R	U	D	degC	
+462	Ms_Temp_CalT	R	U	D	degC	
+463	Ms_Temp_Shut	R	U	D	degC	
+464	Ms_Temp_Grat	R	U	D	degC	
+465	Ms_Temp_Obj	R	U	D	degC	
+466	Ms_Temp_FPA	R	U	D	degC	
+467	Ms_Temp_PEM	R	U	D	degC	
+2545	M_IR_R_Temp	R	U	D	degC	
+2641	H Cool Tip temp	R	U	D	degK	
+2642	H Cool Mot volt	R	U	D	V	
+2643	H Cool Mot curr	R	U	D	A	
+2644	H CCE sec volt	R	U	D	V	
+2645	M_IR_VPOS	R	U	D	V	
+2646	M_IR_VPD	R	U	D	V	
+2647	MIR_Temp_Offs	R	U	D	V	
+2648	MIR_Lamp_Volt	R	U	D	V	
+2649	M_Lamp_StabTime	R	U	D	sec	
+2650	M_Alpha-first	R	U	D	mrad	
+2651	M_Alpha-last	R	U	D	mrad	
+2652	M_Delta-Alpha	R	U	D	mrad	
+2653	M_shutter_StabTime	R	U	D	msec	
+2654	M_AnnTempLimits	R	U	D	degC	
+2655	M_ANN_T_OUT	R	U	D	sec	
+2656	M_ECA_ACT	R	U	D	sec	
+2657	M_Vdetcom	R	U	D	V	
+2658	M_Vdetadj	R	U	D	V	
+2659	H_Vbias	R	U	D	V	
+2660	H_I_Lamp_Spect_T	R	U	D	mA	
+2878	H_I_Lamp_Spect_S	R	U	D	mA	
+2661	H_I_Lamp_Radio	R	U	D	mA	
+2662	H_I_Shutter	R	U	D	mA	
+2663	H_Stab_Lamp_Time	R	U	D	msec	
+2664	H_Stab_Det_Time	R	U	D	sec	
+2665	H_Shutter_Time	R	U	D	msec	
+2666	H_ECA_Act	R	U	D	sec	
+2823	Ms_Det_Temp	R	I	D	degK	
+2326	Calib V to 0C for PT-2000 Therm.	R	U	D	degC	

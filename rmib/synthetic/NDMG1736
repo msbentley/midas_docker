@@ -1,0 +1,13 @@
+# Created: 22.04.2015
+# Author: M. Eiblmaier
+# Description :
+#
+# This parameter shows the SSMM filename 
+# where the next TT command will be stored
+#
+# Note, every MTL file can store up to 8 commands
+##################################
+
+# First file name F000 + index divided by 8
+
+61440+(NDMX7023.raw/8);

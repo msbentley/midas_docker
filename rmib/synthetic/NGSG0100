@@ -1,0 +1,15 @@
+#######################
+#
+# NGSG0100	
+#
+#
+# Created: 27 Nov 2002
+# Author: N. Schmitt
+# Change History:
+#
+#
+#######################
+
+VAR_x := PTIMOBT.time - PTIMOBT;
+
+return (VAR_x);

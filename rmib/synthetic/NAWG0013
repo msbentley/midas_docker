@@ -1,0 +1,82 @@
+#######################
+#
+# NAWG0013	Observed Sun Azimuth
+#
+#  This parameter returns the azimuth of the Sun vector in the S/C frame.
+#       It takes into account the proper SAS measurement (SAS X or XZ).
+#
+#	CAREFUL!
+#	Azimuth is defined taking S/C +Y axis as North Axis!
+#
+# Created: 10 May 2002
+# Author: I. Tanco
+# Descripton of variables:
+#	VAR_az1: Sun Azimuth angle
+#		
+#	VAR_result : End result.
+#
+# Change History:
+#	04/Jul/02: Modified script to use +Y SAS unless SA not deployed.
+#	20/Nov/02: Use average of both SADE encoder readings instead.
+# 	09/Dec/02: Added IF loops to check for zero values before division.
+#       22/Jul/04: Removed Check on Solar array deployment [no SA stowing envisioned]
+#
+#######################
+
+# Determine The Azimuth angle from Sun vector components
+#  the angle is in radians
+
+if (NAWG0010.raw == 0) then
+   VAR_az1 := 0;
+else
+   VAR_az1 := arctan( NAWG0011/NAWG0010 );
+endif;
+
+
+# Determine the quadrant (as atan range is -pi/2 to pi/2 only)
+
+if ( NAWG0011 < 0.0 ) then
+   if ( NAWG0010 < 0.0 ) then
+
+       # The angle in in the third quadrant
+       VAR_az := VAR_az1 - (arccos(-1)); 
+
+   endif;
+   
+   if ( NAWG0010 > 0.0 ) then
+
+       # The angle in in the fourth quadrant
+       VAR_az := VAR_az1; 
+
+   endif;
+
+endif;
+
+if ( NAWG0011 > 0.0 )  then
+   if ( NAWG0010 < 0.0 ) then
+
+      # The angle in in the second quadrant
+      VAR_az := VAR_az1 + (arccos(-1)); 
+
+   endif;
+
+   if ( NAWG0010 > 0.0 ) then
+
+      # The angle in in the first quadrant
+      VAR_az := VAR_az1; 
+
+   endif;
+
+endif;
+
+# Convert the angle to degrees
+
+VAR_res := VAR_az * (180 / arccos(-1));
+
+# Now if the Solar arrays are deployed, add the Yp encoder reading...
+
+VAR_result := VAR_res + ((NACX0021.eng - NACX0020.eng) / 2);
+
+return(VAR_result);
+
+ 

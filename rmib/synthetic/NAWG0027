@@ -1,0 +1,20 @@
+#######################
+#
+# NAWG0027	
+#
+#  This parameter returns the One-way Light Time, in seconds.
+#  The calculation is based on the Ephemeris-derived SC-to-Earth distance.
+#
+# Created: 16 June 2003
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+VAR_c := 299792.458 ;
+
+VAR_result := NACW0S00.eng / VAR_c;
+
+
+return (VAR_result);

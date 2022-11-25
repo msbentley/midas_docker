@@ -1,0 +1,20 @@
+#######################
+#
+# NPWG1003	APR A Average Current
+#
+#  This parameter averages the 3 APR Currents on PCU side A.
+#
+# Created: 10 July 2002
+# Author: E. Montagnon
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	10/Jul/02: Script created
+#
+#######################
+
+   VAR_result := ((NPWD1394.eng + NPWD1444.eng + NPWD1494.eng) / 3);
+   return(VAR_result);
+

@@ -1,0 +1,5 @@
+if (NDMW0J01.raw >= NDMW0J00.raw) then
+	(NDMW0J01.raw - NDMW0J00.raw);
+else
+	((256*16) + NDMW0J01.raw - NDMW0J00.raw);
+endif;

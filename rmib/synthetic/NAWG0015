@@ -1,0 +1,30 @@
+#######################
+#
+# NAWG0015	SADE Mode
+#
+#  This parameter returns a value between 1 and 3 depending on the current SADE Mode
+#
+# Created: 22 July 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+# Case SBY
+if NAWD0A5A.raw == 1 then
+   return(1);
+endif;
+
+# Case AUTO
+if NAWD0A5B.raw == 1 then
+   return(2);
+endif;
+
+# Case GROUND
+if NAWD0A5C.raw == 1 then
+   return(3);
+endif;
+
+# Case Any other Mode, with No Phase
+return(0);

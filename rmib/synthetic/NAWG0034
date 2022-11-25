@@ -1,0 +1,76 @@
+#######################
+#
+# NAWG0034	Derived Earth Azimuth
+#
+#  This parameter returns the azimuth of the Earth vector in the S/C frame.
+#
+#
+#	CAREFUL!
+#	Azimuth is defined taking S/C +Y axis as North Axis!
+#
+# Created: 14 Aug 2003
+# Author: I. Tanco
+# Descripton of variables:
+#	VAR_az1: Earth Azimuth angle
+#		
+#	VAR_result : End result.
+#
+# Change History:
+#
+#######################
+
+# Determine The Azimuth angle from Sun vector components
+#  the angle is in radians
+
+if (NAWG0031.raw == 0) then
+   VAR_az1 := 0;
+else
+   VAR_az1 := arctan( NAWG0033/NAWG0031 );
+endif;
+
+
+# Determine the quadrant (as atan range is -pi/2 to pi/2 only)
+
+if ( NAWG0033 < 0.0 ) then
+   if ( NAWG0031 < 0.0 ) then
+
+       # The angle in in the third quadrant
+       VAR_az := VAR_az1 - (arccos(-1)); 
+
+   endif;
+   
+   if ( NAWG0031 > 0.0 ) then
+
+       # The angle in in the fourth quadrant
+       VAR_az := VAR_az1; 
+
+   endif;
+
+endif;
+
+if ( NAWG0033 > 0.0 )  then
+   if ( NAWG0031 < 0.0 ) then
+
+      # The angle in in the second quadrant
+      VAR_az := VAR_az1 + (arccos(-1)); 
+
+   endif;
+
+   if ( NAWG0031 > 0.0 ) then
+
+      # The angle in in the first quadrant
+      VAR_az := VAR_az1; 
+
+   endif;
+
+endif;
+
+# Convert the angle to degrees
+
+VAR_res := VAR_az * (180 / arccos(-1));
+
+VAR_result := VAR_res;
+
+return(VAR_result);
+
+ 

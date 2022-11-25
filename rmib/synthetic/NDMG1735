@@ -1,0 +1,44 @@
+#######################################################
+#
+# NDMG1735 	TC ZDM01735
+#		DMS-Modify TC Link Monitoring Time Out
+#		Pre-Transmission Validiation
+#
+#	This parameter is used by ZMD01735 PTV
+#	A value of 1 is returned if the conditions are met
+#	A value of 0 is returned if the conditions are not met
+#
+#	Conditions:
+#	NDMW090J Filename under execution	IS NOT = 0
+#	i.e. if a TC file is executing we can not change the TC Link T.O.
+#
+#	OR
+#
+#	NDWD0910 FT Current State		IS NOT = 0 (IDLE)		
+#	i.e. if a FT is on-going we can not change the TC Link T.O.
+#
+# Created: 4th Feb 2008
+# Author: Ian Shazell
+# 
+# Description of variables: 
+# VAR_result : End result.
+#      
+# Change History: 
+#
+########################################################
+
+
+#Initialise VAR_result with a value of zero (Conditions not met)
+
+VAR_result := 0;
+
+#Check that both NDMW090J and NDWD0910 have a raw zero value
+#if true set VAR_result to 1 (Conditions met)
+
+if ((NDMW090J.raw == 0) land (NDWD0910.raw == 0)) then
+   VAR_result := 1;
+endif;
+
+#Return result
+
+return(VAR_result);

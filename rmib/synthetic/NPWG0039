@@ -1,0 +1,20 @@
+#######################
+#
+# NPWG0039	BATT-PCU Harn PWR diss
+#
+#  This is a blank parameter only used by MUST
+#
+# Created: 17th February 2009
+# Author: I.Shazell
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	17/Feb/09: Script created
+#
+#######################
+
+VAR_result := 0 ;
+return(VAR_result);
+

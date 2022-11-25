@@ -1,0 +1,17 @@
+#######################
+#
+# NAWG0021	Spacecraft Angular Momentum H
+#
+#  This parameter returns the Modulus of the Angular Momentum of the Spacecraft (not including the RWA or mechanism movements), in Nms.
+#
+# Created: 12 Sept 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+
+VAR_H := ((NAWG0018.raw)**2 + (NAWG0019.raw)**2 + (NAWG0020.raw)**2)**0.5 ;
+
+return(VAR_H);

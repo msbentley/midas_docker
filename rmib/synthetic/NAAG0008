@@ -1,0 +1,24 @@
+#######################
+# NAAG0008 : RW D fric coeff.
+#   Unit: [Nms]
+#   Friction coefficient in RW D
+#   If the relay status is ON (NAAD4664 == 1) and the relay status is true (NAWD0A1T == 1) then calculate the coefficient
+# 
+# Created on: Tue Oct 06 16:39:44 CEST 2009
+# Author: A. Santiago Varela
+# 
+# Description of variables: 
+#   VAR_result: End result.
+# 
+# Change History:
+#   06-Oct-2009: Script created
+# 
+#######################
+
+if NAWD0A1T.raw == 1 and NAAD4664.raw == 1 then
+    VAR_result := NACW0G15.eng / NAAG0004;
+else
+    VAR_result := 0;
+endif;
+
+return(VAR_result);

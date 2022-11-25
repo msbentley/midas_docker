@@ -1,0 +1,20 @@
+#######################
+#
+# NPWG1001	APR A Average Voltage
+#
+#  This parameter averages the 3 APR voltages on PCU side A.
+#
+# Created: 10 July 2002
+# Author: E. Montagnon
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	10/Jul/02: Script created
+#
+#######################
+
+   VAR_result := ((NPWD1384.eng + NPWD1434.eng + NPWD1484.eng) / 3);
+   return(VAR_result);
+

@@ -1,0 +1,169 @@
+#######################
+#
+# NAWG0002	AOCMS Phase
+#
+#  This parameter returns a value between 0 and 20 depending on the current AOCMS Phase
+#
+# Created: 10 May 2002
+# Author: I. Tanco
+# Change History:
+# 18-Jul-02, Added STaP sub-phases in SAM and SKM.
+#
+#######################
+
+# Case SAM/RRP
+if NAWD0A37.raw == 1 then
+   return(1);
+endif;
+
+# Case SAM/SCP
+if NAWD0A38.raw == 1 then
+   return(2);
+endif;
+
+# Case SAM/SAP
+if NAWD0A39.raw == 1 then
+   return(3);
+endif;
+
+# Case SAM/SPP
+if NAWD0A3A.raw == 1 then
+   return(4);
+endif;
+
+# Case SAM/BPP
+if NAWD0A3B.raw == 1 then
+   return(5);
+endif;
+
+# Case SAM/Stap
+#if NAWD0A3C.raw == 1 then
+#   return(6);
+#endif;
+
+# Case SHM/Rotation
+if NAWD0A3P.raw == 1 then
+   return(7);
+endif;
+
+# Case SHM/Stab
+if NAWD0A3O.raw == 1 then
+   return(8);
+endif;
+
+# Case SHM/Hold
+if NAWD0A3Q.raw == 1 then
+   return(9);
+endif;
+
+# Case SHM/EPIP
+if NAWD0A3R.raw == 1 then
+   return(10);
+endif;
+
+# Case SHM/EPP
+if NAWD0A3S.raw == 1 then
+   return(11);
+endif;
+
+# Case SKM/RRP
+if NAWD0A3V.raw == 1 then
+   return(1);
+endif;
+
+# Case SKM/SAP
+if NAWD0A3W.raw == 1 then
+   return(3);
+endif;
+
+# Case SKM/Stap
+#if NAWD0A3X.raw == 1 then
+#   return(6);
+#endif;
+
+# Case SKM/SAR
+if NAWD0A99.raw == 1 then
+   return(12);
+endif;
+
+# Case SKM/ESM
+if NAWD0A9A.raw == 1 then
+   return(13);
+endif;
+
+# Case SKM/EAH
+if NAWD0A9B.raw == 1 then
+   return(14);
+endif;
+
+# Case NM/WDP
+if NAWD0A43.raw == 1 then
+   return(15);
+endif;
+
+# Case NM/GSP
+if NAWD0A46.raw == 1 then
+   return(16);
+endif;
+
+# Case NM/GSEP
+if NAWD0A47.raw == 1 then
+   return(17);
+endif;
+
+# Case NM/GLEP
+if NAWD0A48.raw == 1 then
+   return(18);
+endif;
+
+# Case NM/FPAP
+if NAWD0A44.raw == 1 then
+   return(19);
+endif;
+
+# Case NM/FPSP
+if NAWD0A45.raw == 1 then
+   return(20);
+endif;
+
+# Case SAM/Stap-Conv
+if NAWD0A3D.raw == 1 then
+   return(21);
+endif;
+
+# Case SAM/Stap-StrInit
+if NAWD0A3E.raw == 1 then
+   return(22);
+endif;
+
+# Case SAM/Stap-EstInit
+if NAWD0A3F.raw == 1 then
+   return(23);
+endif;
+
+# Case SAM/Stap-TestConv
+if NAWD0A3G.raw == 1 then
+   return(24);
+endif;
+
+# Case SKM/Stap-Conv
+if NAWD0A3Y.raw == 1 then
+   return(21);
+endif;
+
+# Case SKM/Stap-StrInit
+if NAWD0A3Z.raw == 1 then
+   return(22);
+endif;
+
+# Case SKM/Stap-EstInit
+if NAWD0A40.raw == 1 then
+   return(23);
+endif;
+
+# Case SKM/Stap-TestConv
+if NAWD0A41.raw == 1 then
+   return(24);
+endif;
+# Case Any other Mode, with No Phase
+return(0);

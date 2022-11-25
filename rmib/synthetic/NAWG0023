@@ -1,0 +1,17 @@
+#######################
+#
+# NAWG0023	Total Angular Momentum H
+#
+#  This parameter returns the Modulus of the Sum of the Angular Momentums of the Reaction Wheel Assembly and the S/C Body (not including mechanisms) in Nms.
+#
+# Created: 12 Sept 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+
+VAR_H := NAWG0021.raw + NAWG0022.raw;
+
+return(VAR_H);

@@ -1,0 +1,16 @@
+#######################
+#
+# NAWG0025	
+#
+#  This parameter returns the North Solar Array Sun Incidence Angle, in degrees.
+#
+# Created: 10 Jan 2003
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+VAR_result := arctan( ( (tan(NACW0K06.eng))**2 + (tan(NACW0K07.eng))**2 )**0.5 )*57.295779;
+
+return (VAR_result);

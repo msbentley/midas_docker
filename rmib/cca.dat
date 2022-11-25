@@ -1,0 +1,128 @@
+2359	calib for STR SW	R	U	D		
+2360	calib for STR SW	R	U	D		
+2361	calib for STR SW	R	U	D		
+2362	calib for STR SW	R	U	D		
+2363	Calib for RW Torque Dema	R	U	D		
+485	calib for STR SW	R	U	D		
+29	Cal curve for HV set	R	U	D		
+33	Cal curve for temp senso	R	U	D		
+34	Cal curve for discrimina	R	U	D		
+2770	Calib V to 0C YSI-44907 	R	U	D		
+2771	Calib V to 0C YSI-44907 	R	U	D		
+2772	Calib V to 0C YSI-44907 	R	U	D		
+2412	Temperature to Voltage, 	R	U	D		
+2773	Calib V to 0C PT-2000 Th	R	U	D		
+2774	Temperature to Voltage, 	R	U	D		
+45	Polynomial calib for DMS	R	U	D		
+1605	Polynomial calib for DMS	R	U	D		
+1606	Polynomial calib for DMS	R	U	D		
+2702	Second calib for Therm X	R	U	D		
+2364	Polynomial calib for DMS	R	U	D		
+2365	Polynomial calib for DMS	R	U	D		
+2366	Text calib for DMS SW	R	U	D		
+2367	Calib for update period	R	U	D		
+2636	DMS SW-Time-Out calib (T	R	U	D		
+3138	Calibration OBM 60 to 63	R	U	D		
+3146	Calibration OBM 340	R	U	D		
+56	raw data value	R	U	D		
+1608	raw data value	R	U	D		
+57	16 bit ADC data	R	I	D		
+59	Temperature	R	I	D		
+60	+15 V-Monitor	R	I	D		
+63	pulse generator pulse wi	R	U	D		
+65	operating point in perce	R	U	D		
+66	frequency high value	R	U	D		
+1610	frequency step/low value	R	U	D		
+1611	operating point [% of fr	R	I	D		
+3235	zoom factor [% of featur	R	U	D		
+2775	Calib V to 0C PT-2000 Th	R	U	D		
+2776	Calib V to 0C YSI-44907 	R	U	D		
+2703	MEA VOLTS X	R	U	D		
+2704	PL PDU CURR A X	R	U	D		
+2705	SS PDU CURR X	R	U	D		
+2706	BATT 1 VOLTS X	R	U	D		
+2707	BATT 2 VOLTS X	R	U	D		
+2708	BATT 3 VOLTS X	R	U	D		
+2709	PDU-SS CURRENT LCL_1A X	R	U	D		
+2710	PDU-SS CURRENT LCL_1B X	R	U	D		
+2711	PDU-SS CURRENT LCL_10A X	R	U	D		
+2712	PDU-SS CURRENT LCL_10B X	R	U	D		
+2713	PDU-SS CURRENT LCL_22A X	R	U	D		
+2714	PDU-SS CURRENT LCL_22B X	R	U	D		
+2715	PDU-SS CURRENT FCL_1A X	R	U	D		
+2716	PDU-SS CURRENT FCL_1B X	R	U	D		
+2717	PDU-PL CURRENT LCL30A X	R	U	D		
+2718	PDU-PL CURRENT LCL6A X	R	U	D		
+2719	PDU-PL CURRENT LCL11A X	R	U	D		
+2720	PDU-PL CURRENT LCL30B X	R	U	D		
+2721	PDU-PL CURRENT LCL6B X	R	U	D		
+2722	PDU-PL CURRENT LCL11B X	R	U	D		
+2777	Temperature to Voltage, 	R	U	D		
+2778	Temperature to Voltage, 	R	U	D		
+2779	Temperature to Voltage, 	R	U	D		
+2780	Temperature to Voltage, 	R	U	D		
+1612	Mcp 28V switch	R	U	D		
+1613	Opto 28V switch	R	U	D		
+1614	Main 28V switch	R	U	D		
+1615	Pacc Hv switch	R	U	D		
+1616	Grid LV switch	R	U	D		
+1617	Entr HV switch	R	U	D		
+1618	Defl LV switch	R	U	D		
+1619	Defl HV switch	R	U	D		
+1620	Direct cmd sw.	R	U	D		
+1621	WD enabel sw.	R	U	D		
+1622	GAS enable/disable	R	U	D		
+1623	Thruster enable/disabl	R	U	D		
+1624	Compr. switch	R	U	D		
+1625	Alt.Pacc switch	R	U	D		
+1626	Pacc. level	R	U	D		
+1627	Auto red. sw.	R	U	D		
+2905	Shadow masking switch	R	U	D		
+2906	Bad HV masking switch	R	U	D		
+3184	Bad mass ring clearing s	R	U	D		
+1628	Boot EEP incl. Context	R	U	D		
+1629	Test pattern	R	U	D		
+1630	Boot EEP excl. Context	R	U	D		
+1631	RPC Internal SID nr	R	U	D		
+1632	Default boot section	R	U	D		
+1633	Deflection level	R	U	D		
+1634	Entrance level	R	U	D		
+1635	SW start level	R	U	D		
+1636	GAS pressure low	R	U	D		
+1637	GAS pressure high	R	U	D		
+1638	Mode cmd	R	U	D		
+1639	Reprog. all EEP sections	R	U	D		
+1640	Opto reference	R	U	D		
+1641	Mcp  reference	R	U	D		
+1642	Grid reference	R	U	D		
+1643	Pacc low ref.	R	U	D		
+1644	Pacc high ref.	R	U	D		
+1645	Deflection LV ref.	R	U	D		
+1646	Deflection HV ref.	R	U	D		
+1647	Entrance ref.	R	U	D		
+1648	Noise reduction	R	U	D		
+1649	Fifo low mark	R	U	D		
+1650	Fifo high mark	R	U	D		
+1651	Fifo force mark	R	U	D		
+1652	Fifo clear mark	R	U	D		
+2781	Temperature to Voltage, 	R	U	D		
+2782	Calib V to 0C YSI-44907 	R	U	D		
+2783	Calib V to 0C YSI-44907 	R	U	D		
+2784	Calib V to 0C PT-2000 Th	R	U	D		
+2785	Temperature to Voltage, 	R	U	D		
+2868	TM Snapshot Duration	R	U	D		
+3211	RWA Thermal control	R	U	D		
+2455	MCB Reference Voltages [	R	U	D		
+2460	Main NAC Interface Plate	R	U	D		
+2468	Main WAC Structure  #1 	R	U	D		
+2470	Main WAC Structure  #2  	R	U	D		
+2474	Main DSP 	R	U	D		
+2475	Red. DSP 	R	U	D		
+2786	Calib V to 0C PT-2000 Th	R	U	D		
+404	HK Packet Frequency	R	U	D		
+2413	Temperature to Voltage, 	R	U	D		
+2787	Temperature to Voltage  	R	U	D		
+2788	Temperature to Voltage  	R	U	D		
+2789	Temperature to Voltage  	R	U	D		
+2790	Temperature to Voltage  	R	U	D		
+2791	Calib V to 0C PT-2000 Th	R	U	D		

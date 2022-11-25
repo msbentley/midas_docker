@@ -1,0 +1,40 @@
+#######################
+#
+# NAWG0031	
+#
+#  This script returns the x-component of the SC-to-Earth vector in S/c ref frame,
+#  from the STL-provided Attitude quaternion, and the Ephem-provided
+#	Earth-to-SC vector in J2000 frame.
+#
+# Created: 13 Aug 2003
+# Author: I. Tanco
+# Change History:
+#	28.Nov.03: Updated Script to correct & simplify expression (IT) 
+#
+#
+#######################
+
+# USe EPH-provided Earth-to-SC vector [invert it first!]
+VAR_E1 := - NACW0S02.eng;
+VAR_E2 := - NACW0S03.eng;
+VAR_E3 := - NACW0S04.eng;
+
+# And the Attitude quaternion (use depends on wether Gyst or Gyless is running)
+
+if (NAWG0024.raw == 2) then
+      VAR_q0 := NACW0X04.eng;
+      VAR_q1 := NACW0X05.eng;
+      VAR_q2 := NACW0X06.eng;
+      VAR_q3 := NACW0X07.eng;
+   else
+      VAR_q0 := NACW0X00.eng;
+      VAR_q1 := NACW0X01.eng;
+      VAR_q2 := NACW0X02.eng;
+      VAR_q3 := NACW0X03.eng;
+endif;
+
+# Get the X-component of the Earth Vector in S/C Reference Frame
+
+VAR_result := VAR_E1*(VAR_q0**2 + VAR_q1**2 - VAR_q2**2 - VAR_q3**2) + VAR_E2*(2*VAR_q0*VAR_q3 + 2*VAR_q1*VAR_q2) + VAR_E3*(-2*VAR_q0*VAR_q2 + 2*VAR_q1*VAR_q3);
+
+return (VAR_result);

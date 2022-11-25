@@ -1,0 +1,20 @@
+#######################
+#
+# NAWG0060	RCS Cumulated Fuel Consumption
+#
+#  This parameter sums the cumulated fuel consumption of each thruster. 
+#
+# Created: 10 August 2005
+# Author: E. Montagnon
+# Description of variables:
+#	
+#	VAR_result : End result.
+#
+# Change History:
+#	10/Aug/05: Script created
+#
+#######################
+
+   VAR_result := (NACW0M0V.eng + NACW0M0W.eng + NACW0M0X.eng + NACW0M0Y.eng + NACW0M0Z.eng + NACW0M10.eng + NACW0M11.eng + NACW0M12.eng + NACW0M13.eng + NACW0M14.eng + NACW0M15.eng + NACW0M16.eng);
+   return(VAR_result);
+

@@ -1,0 +1,73 @@
+#######################################################
+#
+#
+# NAWG0065 Sun Elevation in S/C frame
+#
+#    This parameter returns the angle, in degrees, 
+#    between the Sun vector and its projection on 
+#    the SC XZ plane.
+#
+#    NOTE: This parameter is reported in S/C body RF.
+#    NOTE2: This parameter uses SC +Y as North
+#
+# Created: 10 Nov 2005
+# Author: I. Tanco
+# 
+# Description of variables: 
+# uses EPH_MGR Sun vector (Intertial RF), and STL_EST Quat.
+# 
+#      
+# Change History: 
+#
+######################################################33
+
+# Declare Sun-SC vector in INTRL RF
+
+VAR_six := NACW0S05.eng;
+VAR_siy := NACW0S06.eng;
+VAR_siz := NACW0S07.eng;
+
+
+# Declare var STL EST quaternion (uses gyrostellar or gyroless)
+VAR_gyst := NAWD0A4Q.raw;
+
+if (VAR_gyst == 1) then
+    VAR_est_q0 := NACW0X00.eng;
+    VAR_est_q1 := NACW0X01.eng;
+    VAR_est_q2 := NACW0X02.eng;
+    VAR_est_q3 := NACW0X03.eng;
+else
+    VAR_est_q0 := NACW0X04.eng;
+    VAR_est_q1 := NACW0X05.eng;
+    VAR_est_q2 := NACW0X06.eng;
+    VAR_est_q3 := NACW0X07.eng;
+endif;
+
+
+
+# Rotate the Sun-SC vector to SC RF. [qsun' = qstl(bar)*qsun*qstl]
+
+#VAR_sun_q0 := 0 (by definition)
+VAR_sx := VAR_six*(VAR_est_q0**2 + VAR_est_q1**2 - VAR_est_q2**2 - VAR_est_q3**2) + 2*VAR_siy*(VAR_est_q1*VAR_est_q2 + VAR_est_q0*VAR_est_q3) + 2*VAR_siz*(VAR_est_q1*VAR_est_q3 - VAR_est_q0*VAR_est_q2);
+VAR_sy := VAR_siy*(VAR_est_q0**2 - VAR_est_q1**2 + VAR_est_q2**2 - VAR_est_q3**2) + 2*VAR_six*(VAR_est_q1*VAR_est_q2 - VAR_est_q0*VAR_est_q3) + 2*VAR_siz*(VAR_est_q0*VAR_est_q1 + VAR_est_q2*VAR_est_q3);
+VAR_sz := VAR_siz*(VAR_est_q0**2 - VAR_est_q1**2 - VAR_est_q2**2 + VAR_est_q3**2) + 2*VAR_six*(VAR_est_q0*VAR_est_q2 + VAR_est_q1*VAR_est_q3) + 2*VAR_siy*(-VAR_est_q0*VAR_est_q1 - VAR_est_q2*VAR_est_q3);
+
+
+# Determine The elevation angle from sun vector components
+#  the angle is in radians
+
+if ((VAR_sx **2) + (VAR_sz **2) == 0) then
+   VAR_xz := 1;
+else
+   VAR_xz := ( (VAR_sx **2) + (VAR_sz **2) ) **0.5;
+endif;
+
+
+VAR_el1 := arctan( VAR_sy / VAR_xz);
+
+
+# Convert the angle to degrees
+
+VAR_result := VAR_el1 * (180 / arccos(-1));
+
+return(VAR_result);

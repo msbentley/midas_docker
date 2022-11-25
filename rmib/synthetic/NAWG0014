@@ -1,0 +1,44 @@
+#######################
+#
+# NAWG0014	Observed Sun Elevation
+#
+#  This parameter returns the elevation of the Sun vector in the S/C frame.
+#       It takes into account the proper SAS measurement (SAS X or XZ).
+#
+#	CAREFUL!
+#	Elevation is defined taking S/C +Y axis as North Axis!
+#
+# Created: 10 May 2002
+# Author: I. Tanco
+# Descripton of variables:
+#       VAR_xz: projection in the XZ-plane of the sun vector.
+#	VAR_el1: Sun Elevation angle
+#		
+#	VAR_result : End result.
+#
+# Change History:
+#
+#	20/Nov/02: Changed typo on usage of Sun Xz component.
+# 	09/Dec/02: Added IF loops to check for zero values before division.
+#
+#######################
+
+# Determine The Azimuth angle from Sun vector components
+#  the angle is in radians
+
+if ((NAWG0010 **2) + (NAWG0011 **2) == 0) then
+   VAR_xz := 1;
+else
+   VAR_xz := ( (NAWG0010 **2) + (NAWG0011 **2) ) **0.5;
+endif;
+
+
+VAR_el1 := arctan( NAWG0012 / VAR_xz);
+
+
+# Convert the angle to degrees
+
+VAR_result := VAR_el1 * (180 / arccos(-1));
+
+return(VAR_result);
+ 

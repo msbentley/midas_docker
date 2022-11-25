@@ -1,0 +1,33 @@
+#######################
+#
+# NAWG0017	WOL Mode
+#
+#  This parameter returns a value between 1 and 3 depending on the current WOL Mode
+#
+# Created: 22 July 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+# Case WOL ON
+if NAWD0A4W.raw == 1 then
+
+  # Case ACTIVE
+  if NAWD0A4X.raw == 1 then
+     return(1);
+  endif;
+
+  # Case DAMP
+  if NAWD0A4Y.raw == 1 then
+     return(2);
+  endif;
+
+
+
+endif;
+
+
+# Case WOL OFF
+return(0);

@@ -1,0 +1,47 @@
+#######################################################
+#
+#
+# NAWG0036 HGA Boresight Off-pointing
+#
+#    This parameter returns the total off-pointing, in degrees, 
+#    between the HGA boresight and the Derived Earth Direction
+#
+# Created: 04 March 2004
+# Author: I. Tanco
+# 
+# Description of variables: 
+#     VAR_bx through _bz: HGA boresight pointinh direction expressed as a unit vector
+# Change History: 
+# 
+######################################################33
+
+# Calculate b-vector, boresight unit vector
+
+VAR_bx := cos(-1*NACW1106) * cos(NACW1107);
+VAR_by := sin(NACW1107);
+VAR_bz := sin(-1*NACW1106) * cos(NACW1107);
+
+# Calculate the dot product of the b-vector and Earth derived direction
+
+VAR_mod1 := (VAR_bx**2 + VAR_by**2 + VAR_bz**2)**0.5;
+VAR_mod2 := (NAWG0031**2 + NAWG0032**2 + NAWG0033**2)**0.5;
+VAR_modprod := VAR_mod1 * VAR_mod2;
+
+VAR_dotprod := ((VAR_bx * NAWG0031) + (VAR_by * NAWG0032) + (VAR_bz * NAWG0033))/VAR_modprod;
+
+if (VAR_dotprod > 1.0) then
+    VAR_dotprod := 1.0;
+endif;
+
+if (VAR_dotprod < -1.0) then
+    VAR_dotprod := -1.0;
+endif; 
+
+
+# The arccos of the dot product result will yield the angle between the two vectors
+
+VAR_ang := arccos(VAR_dotprod);
+
+VAR_result := VAR_ang * (180 / arccos(-1));
+
+return( VAR_result );

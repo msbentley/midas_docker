@@ -1,0 +1,62 @@
+#######################
+#
+# NAWG0001	AOCMS Mode
+#
+#  This parameter returns a value between 0 and 9 depending on the current AOCMS Mode
+#
+# Created: 20 Mar 2002
+# Author: I. Tanco
+# Change History:
+#
+#
+#######################
+
+# Case SBM
+if NAWD0A2X.raw == 1 then
+   return(0);
+endif;
+
+# Case SAM
+if NAWD0A2Y.raw == 1 then
+   return(1);
+endif;
+
+# Case SHM
+if NAWD0A2Z.raw == 1 then
+   return(2);
+endif;
+
+# Case SKM
+if NAWD0A30.raw == 1 then
+   return(3);
+endif;
+
+# Case NSHM
+if NAWD0A31.raw == 1 then
+   return(4);
+endif;
+
+# Case NM
+if NAWD0A32.raw == 1 then
+   return(5);
+endif;
+
+# Case AFM
+if NAWD0A33.raw == 1 then
+   return(6);
+endif;
+
+# Case TTM
+if NAWD0A34.raw == 1 then
+   return(7);
+endif;
+
+# Case OCM
+if NAWD0A35.raw == 1 then
+   return(8);
+endif;
+
+# Case SPM
+if NAWD0A36.raw == 1 then
+   return(9);
+endif;
